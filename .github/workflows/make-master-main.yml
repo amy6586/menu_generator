@@ -15,4 +15,4 @@ jobs:
         with:
           fetch-depth: 1
       - name: Run Makefile
-      - run: make all
+        run: make all
