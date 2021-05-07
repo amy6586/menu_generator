@@ -1,0 +1,406 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 3,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 8,
+      "spoonacularScore": 10,
+      "healthScore": 0,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 68.18,
+      "extendedIngredients": [
+        {
+          "id": 2048,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "apple-cider-vinegar.jpg",
+          "consistency": "liquid",
+          "name": "apple cider vinegar",
+          "nameClean": "apple cider vinegar",
+          "original": "1/4 cup apple cider vinegar",
+          "originalString": "1/4 cup apple cider vinegar",
+          "originalName": "apple cider vinegar",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 9016,
+          "aisle": "Beverages",
+          "image": "apple-juice.jpg",
+          "consistency": "liquid",
+          "name": "apple juice",
+          "nameClean": "apple juice",
+          "original": "1/4 cup apple juice",
+          "originalString": "1/4 cup apple juice",
+          "originalName": "apple juice",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 9003,
+          "aisle": "Produce",
+          "image": "apple.jpg",
+          "consistency": "solid",
+          "name": "apples",
+          "nameClean": "apple",
+          "original": "2 Honeycrisp apples, cored and diced",
+          "originalString": "2 Honeycrisp apples, cored and diced",
+          "originalName": "Honeycrisp apples, cored and diced",
+          "amount": 2,
+          "unit": "",
+          "meta": [
+            "diced",
+            "cored"
+          ],
+          "metaInformation": [
+            "diced",
+            "cored"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 19334,
+          "aisle": "Baking",
+          "image": "dark-brown-sugar.png",
+          "consistency": "solid",
+          "name": "brown sugar",
+          "nameClean": "golden brown sugar",
+          "original": "¼ cup brown sugar",
+          "originalString": "¼ cup brown sugar",
+          "originalName": "brown sugar",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1001,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "solid",
+          "name": "butter",
+          "nameClean": "butter",
+          "original": "¼ stick butter",
+          "originalString": "¼ stick butter",
+          "originalName": "butter",
+          "amount": 0.25,
+          "unit": "stick",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "stick",
+              "unitLong": "sticks"
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "stick",
+              "unitLong": "sticks"
+            }
+          }
+        },
+        {
+          "id": 1002010,
+          "aisle": "Spices and Seasonings",
+          "image": "cinnamon.jpg",
+          "consistency": "solid",
+          "name": "cinnamon stick",
+          "nameClean": "cinnamon stick",
+          "original": "1 cinnamon stick",
+          "originalString": "1 cinnamon stick",
+          "originalName": "cinnamon stick",
+          "amount": 1,
+          "unit": "",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 93822,
+          "aisle": "Dried Fruits;Produce",
+          "image": "cherries-dried.jpg",
+          "consistency": "solid",
+          "name": "dried cherries",
+          "nameClean": "dried cherries",
+          "original": "1/2 cup dried cherries, chopped",
+          "originalString": "1/2 cup dried cherries, chopped",
+          "originalName": "dried cherries, chopped",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [
+            "dried",
+            "chopped"
+          ],
+          "metaInformation": [
+            "dried",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 9252,
+          "aisle": "Produce",
+          "image": "pears-bosc.jpg",
+          "consistency": "solid",
+          "name": "pears",
+          "nameClean": "pear",
+          "original": "2 pears, cored and diced",
+          "originalString": "2 pears, cored and diced",
+          "originalName": "pears, cored and diced",
+          "amount": 2,
+          "unit": "",
+          "meta": [
+            "diced",
+            "cored"
+          ],
+          "metaInformation": [
+            "diced",
+            "cored"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        }
+      ],
+      "id": 642554,
+      "title": "Fall Fruit Compote",
+      "readyInMinutes": 45,
+      "servings": 8,
+      "sourceUrl": "http://www.foodista.com/recipe/WKXKPMZ8/fall-fruit-compote",
+      "image": "https://spoonacular.com/recipeImages/642554-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Fall Fruit Compote might be just the sauce you are searching for. This recipe makes 8 servings with <b>131 calories</b>, <b>1g of protein</b>, and <b>3g of fat</b> each. For <b>68 cents per serving</b>, this recipe <b>covers 2%</b> of your daily requirements of vitamins and minerals. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. If you have apple cider vinegar, cinnamon stick, cherries, and a few other ingredients on hand, you can make it. 7 people have made this recipe and would make it again. It is a good option if you're following a <b>gluten free and vegetarian</b> diet. From preparation to the plate, this recipe takes around <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 12%</b>. This score is not so amazing. Try <a href=\"https://spoonacular.com/recipes/fall-fruit-compote-57602\">Fall Fruit Compote</a>, <a href=\"https://spoonacular.com/recipes/sunday-brunch-fall-fruit-compote-50308\">Sunday Brunch: Fall Fruit Compote</a>, and <a href=\"https://spoonacular.com/recipes/angel-food-cake-with-fall-fruit-compote-59222\">Angel Food Cake with Fall Fruit Compote</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "lacto ovo vegetarian"
+      ],
+      "occasions": [
+        "fall"
+      ],
+      "instructions": "<ol><li>Melt the butter in a medium saucepan over high heat. Add the diced apples, pears, cherries, vinegar, apple juice, brown sugar, and cinnamon stick. Cook for 5 minutes. Lower the heat to medium and cook a few minutes more, until the fruit is tender and the liquid has boiled away. Add a bit more apple juice to keep the fruit from scorching. The compote will keep for a week, refrigerated. Serve warm with potato latkes.</li></ol>",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Melt the butter in a medium saucepan over high heat.",
+              "ingredients": [
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404669,
+                  "name": "sauce pan",
+                  "localizedName": "sauce pan",
+                  "image": "sauce-pan.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Add the diced apples, pears, cherries, vinegar, apple juice, brown sugar, and cinnamon stick. Cook for 5 minutes. Lower the heat to medium and cook a few minutes more, until the fruit is tender and the liquid has boiled away.",
+              "ingredients": [
+                {
+                  "id": 1002010,
+                  "name": "cinnamon stick",
+                  "localizedName": "cinnamon stick",
+                  "image": "cinnamon.jpg"
+                },
+                {
+                  "id": 9016,
+                  "name": "apple juice",
+                  "localizedName": "apple juice",
+                  "image": "apple-juice.jpg"
+                },
+                {
+                  "id": 19334,
+                  "name": "brown sugar",
+                  "localizedName": "brown sugar",
+                  "image": "dark-brown-sugar.png"
+                },
+                {
+                  "id": 9070,
+                  "name": "cherries",
+                  "localizedName": "cherries",
+                  "image": "cherries.jpg"
+                },
+                {
+                  "id": 2053,
+                  "name": "vinegar",
+                  "localizedName": "vinegar",
+                  "image": "vinegar-(white).jpg"
+                },
+                {
+                  "id": 9003,
+                  "name": "apple",
+                  "localizedName": "apple",
+                  "image": "apple.jpg"
+                },
+                {
+                  "id": 9431,
+                  "name": "fruit",
+                  "localizedName": "fruit",
+                  "image": "mixed-fresh-fruit.jpg"
+                },
+                {
+                  "id": 9252,
+                  "name": "pear",
+                  "localizedName": "pear",
+                  "image": "pears-bosc.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Add a bit more apple juice to keep the fruit from scorching. The compote will keep for a week, refrigerated.",
+              "ingredients": [
+                {
+                  "id": 9016,
+                  "name": "apple juice",
+                  "localizedName": "apple juice",
+                  "image": "apple-juice.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "compote",
+                  "localizedName": "compote",
+                  "image": ""
+                },
+                {
+                  "id": 9431,
+                  "name": "fruit",
+                  "localizedName": "fruit",
+                  "image": "mixed-fresh-fruit.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Serve warm with potato latkes.",
+              "ingredients": [
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/fall-fruit-compote-642554"
+    }
+  ]
+}

@@ -1,0 +1,736 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 7,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 40,
+      "spoonacularScore": 26,
+      "healthScore": 1,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 29.57,
+      "extendedIngredients": [
+        {
+          "id": 18371,
+          "aisle": "Baking",
+          "image": "white-powder.jpg",
+          "consistency": "solid",
+          "name": "baking powder",
+          "nameClean": "low sodium baking powder",
+          "original": "3/4 teaspoon baking powder",
+          "originalString": "3/4 teaspoon baking powder",
+          "originalName": "baking powder",
+          "amount": 0.75,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.75,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.75,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 18372,
+          "aisle": "Baking",
+          "image": "white-powder.jpg",
+          "consistency": "solid",
+          "name": "baking soda",
+          "nameClean": "baking soda",
+          "original": "1/2 teaspoon and a pinch of baking soda",
+          "originalString": "1/2 teaspoon and a pinch of baking soda",
+          "originalName": "and a pinch of baking soda",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1002030,
+          "aisle": "Spices and Seasonings",
+          "image": "pepper.jpg",
+          "consistency": "solid",
+          "name": "black pepper",
+          "nameClean": "ground black pepper",
+          "original": "1/2 teaspoon freshly ground black pepper",
+          "originalString": "1/2 teaspoon freshly ground black pepper",
+          "originalName": "freshly ground black pepper",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": [
+            "black",
+            "freshly ground"
+          ],
+          "metaInformation": [
+            "black",
+            "freshly ground"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1001,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "solid",
+          "name": "butter",
+          "nameClean": "butter",
+          "original": "1/2 cup (or 1 stick) and 3 tablespoons cold butter, sliced",
+          "originalString": "1/2 cup (or 1 stick) and 3 tablespoons cold butter, sliced",
+          "originalName": "(or 1 stick) and 3 tablespoons cold butter, sliced",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [
+            "cold",
+            "sliced",
+            "(or 1 stick)"
+          ],
+          "metaInformation": [
+            "cold",
+            "sliced",
+            "(or 1 stick)"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1230,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "buttermilk.jpg",
+          "consistency": "solid",
+          "name": "buttermilk",
+          "nameClean": "buttermilk",
+          "original": "1 cup buttermilk",
+          "originalString": "1 cup buttermilk",
+          "originalName": "buttermilk",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1009,
+          "aisle": "Cheese",
+          "image": "cheddar-cheese.png",
+          "consistency": "solid",
+          "name": "cheddar cheese",
+          "nameClean": "cheddar cheese",
+          "original": "1/2 cup coarsely grated Cheddar cheese",
+          "originalString": "1/2 cup coarsely grated Cheddar cheese",
+          "originalName": "coarsely grated Cheddar cheese",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [
+            "grated"
+          ],
+          "metaInformation": [
+            "grated"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1012,
+          "aisle": "Cheese",
+          "image": "cottage-cheese.jpg",
+          "consistency": "solid",
+          "name": "cottage cheese",
+          "nameClean": "cottage cheese",
+          "original": "1/2 cup cottage cheese",
+          "originalString": "1/2 cup cottage cheese",
+          "originalName": "cottage cheese",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 2045,
+          "aisle": "Produce",
+          "image": "dill.jpg",
+          "consistency": "solid",
+          "name": "fresh dill",
+          "nameClean": "dill",
+          "original": "1 tablespoon chopped fresh dill",
+          "originalString": "1 tablespoon chopped fresh dill",
+          "originalName": "chopped fresh dill",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [
+            "fresh",
+            "chopped"
+          ],
+          "metaInformation": [
+            "fresh",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 11677,
+          "aisle": "Produce",
+          "image": "shallots.jpg",
+          "consistency": "solid",
+          "name": "shallot",
+          "nameClean": "shallot",
+          "original": "1 large shallot, chopped",
+          "originalString": "1 large shallot, chopped",
+          "originalName": "shallot, chopped",
+          "amount": 1,
+          "unit": "large",
+          "meta": [
+            "chopped"
+          ],
+          "metaInformation": [
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "solid",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "1 tablespoon sugar",
+          "originalString": "1 tablespoon sugar",
+          "originalName": "sugar",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 10020081,
+          "aisle": "Baking",
+          "image": "flour.png",
+          "consistency": "solid",
+          "name": "unbleached flour",
+          "nameClean": "unbleached flour",
+          "original": "2 1/4 cups unbleached all-purpose flour",
+          "originalString": "2 1/4 cups unbleached all-purpose flour",
+          "originalName": "unbleached all-purpose flour",
+          "amount": 2.25,
+          "unit": "cups",
+          "meta": [
+            "all-purpose"
+          ],
+          "metaInformation": [
+            "all-purpose"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2.25,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 532.323,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 20080,
+          "aisle": "Baking",
+          "image": "flour.png",
+          "consistency": "solid",
+          "name": "whole wheat flour",
+          "nameClean": "whole wheat flour",
+          "original": "1/2 cup whole wheat flour",
+          "originalString": "1/2 cup whole wheat flour",
+          "originalName": "whole wheat flour",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [
+            "whole wheat"
+          ],
+          "metaInformation": [
+            "whole wheat"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        }
+      ],
+      "id": 659463,
+      "title": "Savory Cheese Dill Scones",
+      "readyInMinutes": 45,
+      "servings": 12,
+      "sourceUrl": "http://www.foodista.com/recipe/CHQQMT5Q/savory-cheese-dill-scones",
+      "image": "https://spoonacular.com/recipeImages/659463-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "The recipe Savory Cheese Dill Scones could satisfy your Scottish craving in roughly <b>45 minutes</b>. One serving contains <b>215 calories</b>, <b>6g of protein</b>, and <b>11g of fat</b>. This recipe serves 12 and costs 30 cents per serving. It works well as an inexpensive morn meal. 40 people have tried and liked this recipe. A mixture of cottage cheese, a pinch of baking soda, pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. It is a good option if you're following a <b>vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 28%</b>. This score is not so super. Try <a href=\"https://spoonacular.com/recipes/savory-dill-and-caraway-scones-394210\">Savory Dill and Caraway Scones</a>, <a href=\"https://spoonacular.com/recipes/cheese-dill-scones-17417\">Cheese Dill Scones</a>, and <a href=\"https://spoonacular.com/recipes/savory-three-cheese-cream-cheese-pumpkin-scones-612392\">Savory Three Cheese Cream Cheese Pumpkin Scones</a> for similar recipes.",
+      "cuisines": [
+        "English",
+        "Scottish",
+        "British",
+        "European"
+      ],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "lacto ovo vegetarian"
+      ],
+      "occasions": [],
+      "instructions": "<ol><li>Preheat oven to 375F with the rack in middle position.</li><li>Make the Scone Mix.</li><li>Using a Food Processor fitted with a steel knife blade: Place half the butter and half the dry ingredients in the bowl. Pulse until the butter is reduced to pea-sized pieces, with dough still dry. Transfer first half of the mix into a large bowl. Repeat process with the other half of the ingredients and add to the large bowl.</li><li>By hand: Place all the ingredients in a large bowl and use a pastry cutter to incorporate the butter into the dough. Cut by pressing on butter, then gathering flour onto it in two quick strokes.  Cut until butter slices become pea-sized.</li><li>Dont over process or mix. Dough will be dry. Break large lumps of butter by hand, and toss dry dough with your fingers.</li><li>Blend the cheeses, dill, shallot and pepper with the Scone Mix using a wooden spoon. Drizzle the buttermilk over the dough and drop the cottage cheese in the middle, and stir until mixed. Add more buttermilk if dough is too dry to hold together.</li><li>Place dough on a lightly floured surface and divide into two. Form 2 discs and flatten each to a thickness of about 1-1/2 inches, cut into 6 wedges for a total of 12. Arrange an inch apart on a cookie sheet.</li><li>Bake for 15 minutes, rotate the pan, and bake another 10 to 15 minutes, until scones are light brown on top and darker at the bottom. Bread should no longer be soft and doughy in the center. Bake in 2 batches if scones dont fit in one cookie sheet.</li><li>Serve warm or cool in a wire rack before wrapping in foil or plastic wrap/bag. Freshly baked scones can be kept at room temperature for up to 2 days, and in the refrigerator for a week.</li></ol>",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Preheat oven to 375F with the rack in middle position.Make the Scone",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg",
+                  "temperature": {
+                    "number": 375,
+                    "unit": "Fahrenheit"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mix.Using a Food Processor fitted with a steel knife blade",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Place half the butter and half the dry ingredients in the bowl. Pulse until the butter is reduced to pea-sized pieces, with dough still dry.",
+              "ingredients": [
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Transfer first half of the mix into a large bowl. Repeat process with the other half of the ingredients and add to the large bowl.By hand",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Place all the ingredients in a large bowl and use a pastry cutter to incorporate the butter into the dough.",
+              "ingredients": [
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 406916,
+                  "name": "pastry cutter",
+                  "localizedName": "pastry cutter",
+                  "image": "dough-cutter.jpg"
+                },
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Cut by pressing on butter, then gathering flour onto it in two quick strokes.",
+              "ingredients": [
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                },
+                {
+                  "id": 20081,
+                  "name": "all purpose flour",
+                  "localizedName": "all purpose flour",
+                  "image": "flour.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Cut until butter slices become pea-sized.Dont over process or mix. Dough will be dry. Break large lumps of butter by hand, and toss dry dough with your fingers.Blend the cheeses, dill, shallot and pepper with the Scone",
+              "ingredients": [
+                {
+                  "id": 11677,
+                  "name": "shallot",
+                  "localizedName": "shallot",
+                  "image": "shallots.jpg"
+                },
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                },
+                {
+                  "id": 1002030,
+                  "name": "pepper",
+                  "localizedName": "pepper",
+                  "image": "pepper.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                },
+                {
+                  "id": 2045,
+                  "name": "dill",
+                  "localizedName": "dill",
+                  "image": "dill.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Mix using a wooden spoon.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404732,
+                  "name": "wooden spoon",
+                  "localizedName": "wooden spoon",
+                  "image": "wooden-spoon.jpg"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "step": "Drizzle the buttermilk over the dough and drop the cottage cheese in the middle, and stir until mixed.",
+              "ingredients": [
+                {
+                  "id": 1012,
+                  "name": "cottage cheese",
+                  "localizedName": "cottage cheese",
+                  "image": "cottage-cheese.jpg"
+                },
+                {
+                  "id": 1230,
+                  "name": "buttermilk",
+                  "localizedName": "buttermilk",
+                  "image": "buttermilk.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 6,
+              "step": "Add more buttermilk if dough is too dry to hold together.",
+              "ingredients": [
+                {
+                  "id": 1230,
+                  "name": "buttermilk",
+                  "localizedName": "buttermilk",
+                  "image": "buttermilk.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Place dough on a lightly floured surface and divide into two. Form 2 discs and flatten each to a thickness of about 1-1/2 inches, cut into 6 wedges for a total of 1",
+              "ingredients": [
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 8,
+              "step": "Arrange an inch apart on a cookie sheet.",
+              "ingredients": [
+                {
+                  "id": 10118192,
+                  "name": "cookies",
+                  "localizedName": "cookies",
+                  "image": "shortbread-cookies.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "step": "Bake for 15 minutes, rotate the pan, and bake another 10 to 15 minutes, until scones are light brown on top and darker at the bottom. Bread should no longer be soft and doughy in the center.",
+              "ingredients": [
+                {
+                  "id": 18064,
+                  "name": "bread",
+                  "localizedName": "bread",
+                  "image": "white-bread.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                },
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ],
+              "length": {
+                "number": 25,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 10,
+              "step": "Bake in 2 batches if scones dont fit in one cookie sheet.",
+              "ingredients": [
+                {
+                  "id": 10118192,
+                  "name": "cookies",
+                  "localizedName": "cookies",
+                  "image": "shortbread-cookies.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "step": "Serve warm or cool in a wire rack before wrapping in foil or plastic wrap/bag. Freshly baked scones can be kept at room temperature for up to 2 days, and in the refrigerator for a week.",
+              "ingredients": [
+                {
+                  "id": 10018364,
+                  "name": "wrap",
+                  "localizedName": "wrap",
+                  "image": "flour-tortilla.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404730,
+                  "name": "plastic wrap",
+                  "localizedName": "plastic wrap",
+                  "image": "plastic-wrap.jpg"
+                },
+                {
+                  "id": 405900,
+                  "name": "wire rack",
+                  "localizedName": "wire rack",
+                  "image": "wire-rack.jpg"
+                },
+                {
+                  "id": 404765,
+                  "name": "aluminum foil",
+                  "localizedName": "aluminum foil",
+                  "image": "aluminum-foil.png"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/savory-cheese-dill-scones-659463"
+    }
+  ]
+}

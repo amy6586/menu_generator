@@ -1,0 +1,362 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 0,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 14,
+      "spoonacularScore": 91,
+      "healthScore": 48,
+      "creditsText": "Afrolems",
+      "license": "CC BY 4.0",
+      "sourceName": "Afrolems",
+      "pricePerServing": 367.64,
+      "extendedIngredients": [
+        {
+          "id": 10311529,
+          "aisle": "Produce",
+          "image": "cherry-tomatoes.png",
+          "consistency": "solid",
+          "name": "cherry tomatoes",
+          "nameClean": "cherry tomato",
+          "original": "a handful of cherry tomatoes",
+          "originalString": "a handful of cherry tomatoes",
+          "originalName": "a of cherry tomatoes",
+          "amount": 1,
+          "unit": "handful",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "handful",
+              "unitLong": "handful"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "handful",
+              "unitLong": "handful"
+            }
+          }
+        },
+        {
+          "id": 11333,
+          "aisle": "Produce",
+          "image": "green-pepper.jpg",
+          "consistency": "solid",
+          "name": "green bell pepper",
+          "nameClean": "green pepper",
+          "original": "1/2 green bell pepper",
+          "originalString": "1/2 green bell pepper",
+          "originalName": "green bell pepper",
+          "amount": 0.5,
+          "unit": "",
+          "meta": [
+            "green"
+          ],
+          "metaInformation": [
+            "green"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 9160,
+          "aisle": "Produce",
+          "image": "lime-juice.png",
+          "consistency": "liquid",
+          "name": "lime juice",
+          "nameClean": "lime juice",
+          "original": "1 tablespoon of lime juice",
+          "originalString": "1 tablespoon of lime juice",
+          "originalName": "lime juice",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 9176,
+          "aisle": "Produce",
+          "image": "mango.jpg",
+          "consistency": "solid",
+          "name": "mangoes",
+          "nameClean": "mango",
+          "original": "2 Large Mangoes",
+          "originalString": "2 Large Mangoes",
+          "originalName": "Large Mangoes",
+          "amount": 2,
+          "unit": "",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 2064,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "mint.jpg",
+          "consistency": "solid",
+          "name": "mint leaves",
+          "nameClean": "fresh mint",
+          "original": "A few scent leaves or mint leaves",
+          "originalString": "A few scent leaves or mint leaves",
+          "originalName": "A few scent or mint leaves",
+          "amount": 3,
+          "unit": "leaves",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "leaf",
+              "unitLong": "leaves"
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "leaf",
+              "unitLong": "leaves"
+            }
+          }
+        },
+        {
+          "id": 11821,
+          "aisle": "Produce",
+          "image": "red-pepper.jpg",
+          "consistency": "solid",
+          "name": "red bell pepper",
+          "nameClean": "red pepper",
+          "original": "1/2 red bell pepper",
+          "originalString": "1/2 red bell pepper",
+          "originalName": "red bell pepper",
+          "amount": 0.5,
+          "unit": "",
+          "meta": [
+            "red"
+          ],
+          "metaInformation": [
+            "red"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 10011282,
+          "aisle": "Produce",
+          "image": "red-onion.png",
+          "consistency": "solid",
+          "name": "red onions",
+          "nameClean": "red onion",
+          "original": "2 handfuls of chopped red onions",
+          "originalString": "2 handfuls of chopped red onions",
+          "originalName": "chopped red onions",
+          "amount": 2,
+          "unit": "handfuls",
+          "meta": [
+            "red",
+            "chopped"
+          ],
+          "metaInformation": [
+            "red",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "handfuls",
+              "unitLong": "handfuls"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "handfuls",
+              "unitLong": "handfuls"
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "solid",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "A pinch of sugar",
+          "originalString": "A pinch of sugar",
+          "originalName": "A of sugar",
+          "amount": 1,
+          "unit": "pinch",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "pinch",
+              "unitLong": "pinch"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "pinch",
+              "unitLong": "pinch"
+            }
+          }
+        }
+      ],
+      "id": 716290,
+      "title": "Mango Salsa",
+      "readyInMinutes": 45,
+      "servings": 1,
+      "sourceUrl": "http://www.afrolems.com/2014/03/21/mango-salsa/",
+      "image": "https://spoonacular.com/recipeImages/716290-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "The recipe Mango Salsa could satisfy your Mexican craving in around <b>45 minutes</b>. For <b>$3.02 per serving</b>, this recipe <b>covers 20%</b> of your daily requirements of vitamins and minerals. One serving contains <b>237 calories</b>, <b>4g of protein</b>, and <b>2g of fat</b>. A couple people made this recipe, and 14 would say it hit the spot. It works well as a pretty expensive hor d'oeuvre. A mixture of mint leaves, an of sugar, bell pepper, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a good option if you're following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 90%</b>. This score is spectacular. Try <a href=\"https://spoonacular.com/recipes/grilled-mango-chicken-with-strawberry-mango-salsa-733371\">Grilled Mango Chicken with Strawberry Mango Salsa</a>, <a href=\"https://spoonacular.com/recipes/sunny-hot-salsa-pineapple-mango-kiwi-salsa-148792\">Sunny & Hot! Salsa (Pineapple Mango Kiwi Salsa)</a>, and <a href=\"https://spoonacular.com/recipes/mango-salsa-520411\">Mango Salsa</a> for similar recipes.",
+      "cuisines": [
+        "Mexican"
+      ],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [],
+      "instructions": "Peel and chop your mango into small cubesCube your bell peppers and onions as well and mix in with the mangoes. Add the cherry tomatoes and mix in.sprinkle your sugar and lime juice over it.Chop your scent/mint leaves and mix in and refrigerate.Serve cool as a side dish or if you want something refreshing on a hot day.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Peel and chop your mango into small cubes",
+              "ingredients": [
+                {
+                  "id": 9176,
+                  "name": "mango",
+                  "localizedName": "mango",
+                  "image": "mango.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 2,
+              "step": "Cube your bell peppers and onions as well and mix in with the mangoes.",
+              "ingredients": [
+                {
+                  "id": 10211821,
+                  "name": "bell pepper",
+                  "localizedName": "bell pepper",
+                  "image": "bell-pepper-orange.png"
+                },
+                {
+                  "id": 9176,
+                  "name": "mango",
+                  "localizedName": "mango",
+                  "image": "mango.jpg"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Add the cherry tomatoes and mix in.sprinkle your sugar and lime juice over it.Chop your scent/mint leaves and mix in and refrigerate.",
+              "ingredients": [
+                {
+                  "id": 10311529,
+                  "name": "cherry tomato",
+                  "localizedName": "cherry tomato",
+                  "image": "cherry-tomatoes.png"
+                },
+                {
+                  "id": 2064,
+                  "name": "mint",
+                  "localizedName": "mint",
+                  "image": "mint.jpg"
+                },
+                {
+                  "id": 9160,
+                  "name": "lime juice",
+                  "localizedName": "lime juice",
+                  "image": "lime-juice.png"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Serve cool as a side dish or if you want something refreshing on a hot day.",
+              "ingredients": [],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/mango-salsa-716290"
+    }
+  ]
+}
