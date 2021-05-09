@@ -6,9 +6,6 @@ jq_installed:
 json2csv_installed:
 	pip3 install --user json2csv
 
-psycopg2_Install: #install psycopg2-binary for manipulating postgres in python
-	pip3install psycopg2-binary
-
 TODAY = $(shell date --date='today' '+%F')
 
 recipes_vegan.json: jq_installed json2csv_installed
@@ -34,3 +31,12 @@ recipes_random.json:
 
 merged_recipes.json: recipes_vegan.json recipes_vegeterian.json recipes_meat.json recipes_fish.json recipes_chicken.json recipes_dessert.json recipes_random.json
 	jq -s '.' *.json > merged_recipes.json
+
+#recipe_json: merged_recipes_json
+	cat merged_recipes.json | q ".recipes[]" > recipes.json
+
+#ingredients_json: merged_recipes_json
+	cat merged_recipes.json | q ".recipes[].extendedIngredients[]" > ingredients.json
+
+#analyzedInstructions_json: merged_recipes_json
+	cat merged_recipes.json | q ".recipes[].analyzedInstructions[]" > analyzedInstructions.json
