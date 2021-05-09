@@ -34,15 +34,3 @@ recipes_random.json:
 
 merged_recipes.json: recipes_vegan.json recipes_vegeterian.json recipes_meat.json recipes_fish.json recipes_chicken.json recipes_dessert.json recipes_random.json
 	jq -s '.' *.json > merged_recipes.json
-
-#recipe_json: merged_recipes_json
-	cat merged_recipes.json | q ".recipes[]" > recipes.json
-
-#ingredients_json: merged_recipes_json
-	cat merged_recipes.json | q ".recipes[].extendedIngredients[]" > ingredients.json
-
-#analyzedInstructions_json: merged_recipes_json
-	cat merged_recipes.json | q ".recipes[].analyzedInstructions[]" > analyzedInstructions.json
-
-#postgres_script: #runs the py script
-	python3 RDS-connect.py
