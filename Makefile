@@ -6,9 +6,6 @@ jq_installed:
 json2csv_installed:
 	pip3 install --user json2csv
 
-psycopg2_Install: #install psycopg2-binary for manipulating postgres in python
-	pip3install psycopg2-binary
-
 TODAY = $(shell date --date='today' '+%F')
 
 recipes_vegan.json: jq_installed json2csv_installed
@@ -43,6 +40,3 @@ merged_recipes.json: recipes_vegan.json recipes_vegeterian.json recipes_meat.jso
 
 #analyzedInstructions_json: merged_recipes_json
 	cat merged_recipes.json | q ".recipes[].analyzedInstructions[]" > analyzedInstructions.json
-
-#postgres_script: #runs the py script
-	python3 RDS-connect.py
