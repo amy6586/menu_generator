@@ -1,5 +1,6 @@
 name: make-master-1.0
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
