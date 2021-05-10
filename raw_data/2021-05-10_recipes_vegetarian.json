@@ -2,9 +2,9 @@
   "recipes": [
     {
       "vegetarian": true,
-      "vegan": false,
+      "vegan": true,
       "glutenFree": true,
-      "dairyFree": false,
+      "dairyFree": true,
       "veryHealthy": false,
       "cheap": false,
       "veryPopular": false,
@@ -12,421 +12,402 @@
       "weightWatcherSmartPoints": 16,
       "gaps": "no",
       "lowFodmap": false,
-      "aggregateLikes": 7,
-      "spoonacularScore": 57,
-      "healthScore": 13,
+      "aggregateLikes": 29,
+      "spoonacularScore": 18,
+      "healthScore": 1,
       "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
       "license": "CC BY 3.0",
       "sourceName": "Foodista",
-      "pricePerServing": 271.05,
+      "pricePerServing": 355.03,
       "extendedIngredients": [
         {
-          "id": 11206,
+          "id": 9078,
           "aisle": "Produce",
-          "image": "cucumber.jpg",
+          "image": "cranberries.jpg",
           "consistency": "solid",
-          "name": "cucumbers",
-          "nameClean": "cucumber",
-          "original": "2 cucumbers, peeled, seeded and coarsely grated",
-          "originalString": "2 cucumbers, peeled, seeded and coarsely grated",
-          "originalName": "cucumbers, peeled, seeded and coarsely grated",
-          "amount": 2,
-          "unit": "",
+          "name": "cranberries",
+          "nameClean": "cranberries",
+          "original": "16 ounces package of fresh cranberries",
+          "originalString": "16 ounces package of fresh cranberries",
+          "originalName": "package of fresh cranberries",
+          "amount": 16,
+          "unit": "ounces",
           "meta": [
-            "grated",
-            "peeled",
-            "seeded"
+            "fresh"
           ],
           "metaInformation": [
-            "grated",
-            "peeled",
-            "seeded"
+            "fresh"
           ],
           "measures": {
             "us": {
-              "amount": 2,
-              "unitShort": "",
-              "unitLong": ""
+              "amount": 16,
+              "unitShort": "oz",
+              "unitLong": "ounces"
             },
             "metric": {
-              "amount": 2,
-              "unitShort": "",
-              "unitLong": ""
+              "amount": 453.592,
+              "unitShort": "g",
+              "unitLong": "grams"
             }
           }
         },
         {
-          "id": 1012047,
-          "aisle": "Spices and Seasonings",
-          "image": "salt.jpg",
+          "id": 10314534,
+          "aisle": "Alcoholic Beverages",
+          "image": "grand-marnier.jpg",
           "consistency": "solid",
-          "name": "sea salt",
-          "nameClean": "sea salt",
-          "original": "¼ tsp sea salt",
-          "originalString": "¼ tsp sea salt",
-          "originalName": "sea salt",
-          "amount": 0.25,
-          "unit": "tsp",
+          "name": "grand marnier",
+          "nameClean": "grand marnier",
+          "original": "3 ounces of Grand Marnier",
+          "originalString": "3 ounces of Grand Marnier",
+          "originalName": "Grand Marnier",
+          "amount": 3,
+          "unit": "ounces",
           "meta": [],
           "metaInformation": [],
           "measures": {
             "us": {
-              "amount": 0.25,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
+              "amount": 3,
+              "unitShort": "oz",
+              "unitLong": "ounces"
             },
             "metric": {
-              "amount": 0.25,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
+              "amount": 85.049,
+              "unitShort": "g",
+              "unitLong": "grams"
             }
           }
         },
         {
-          "id": 1116,
-          "aisle": "Milk, Eggs, Other Dairy",
-          "image": "plain-yogurt.jpg",
-          "consistency": "solid",
-          "name": "yogurt",
-          "nameClean": "yogurt",
-          "original": "1 ½ cups of yogurt",
-          "originalString": "1 ½ cups of yogurt",
-          "originalName": "yogurt",
-          "amount": 1.5,
-          "unit": "cups",
-          "meta": [],
-          "metaInformation": [],
-          "measures": {
-            "us": {
-              "amount": 1.5,
-              "unitShort": "cups",
-              "unitLong": "cups"
-            },
-            "metric": {
-              "amount": 354.882,
-              "unitShort": "ml",
-              "unitLong": "milliliters"
-            }
-          }
-        },
-        {
-          "id": 1056,
-          "aisle": "Milk, Eggs, Other Dairy",
-          "image": "sour-cream.jpg",
-          "consistency": "solid",
-          "name": "sour cream",
-          "nameClean": "sour cream",
-          "original": "½ cup sour cream",
-          "originalString": "½ cup sour cream",
-          "originalName": "sour cream",
-          "amount": 0.5,
+          "id": 9206,
+          "aisle": "Beverages",
+          "image": "orange-juice.jpg",
+          "consistency": "liquid",
+          "name": "orange juice",
+          "nameClean": "orange juice",
+          "original": "1 cup freshly squeezed orange juice, about 9 oranges",
+          "originalString": "1 cup freshly squeezed orange juice, about 9 oranges",
+          "originalName": "freshly squeezed orange juice, about 9 oranges",
+          "amount": 1,
           "unit": "cup",
           "meta": [
-            "sour"
+            "freshly squeezed"
           ],
           "metaInformation": [
-            "sour"
+            "freshly squeezed"
           ],
           "measures": {
             "us": {
-              "amount": 0.5,
-              "unitShort": "cups",
-              "unitLong": "cups"
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
             },
             "metric": {
-              "amount": 118.294,
+              "amount": 236.588,
               "unitShort": "ml",
               "unitLong": "milliliters"
             }
           }
         },
         {
-          "id": 4053,
-          "aisle": "Oil, Vinegar, Salad Dressing",
-          "image": "olive-oil.jpg",
-          "consistency": "liquid",
-          "name": "olive oil",
-          "nameClean": "olive oil",
-          "original": "3 Tbs olive oil",
-          "originalString": "3 Tbs olive oil",
-          "originalName": "olive oil",
-          "amount": 3,
-          "unit": "Tbs",
+          "id": 93784,
+          "aisle": "Health Foods;Baking",
+          "image": "corn-syrup.png",
+          "consistency": "solid",
+          "name": "rice syrup",
+          "nameClean": "brown rice syrup",
+          "original": "light Karo syrup",
+          "originalString": "light Karo syrup",
+          "originalName": "light Karo syrup",
+          "amount": 6,
+          "unit": "servings",
+          "meta": [
+            "light"
+          ],
+          "metaInformation": [
+            "light"
+          ],
+          "measures": {
+            "us": {
+              "amount": 6,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 6,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "solid",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "1 cup sugar",
+          "originalString": "1 cup sugar",
+          "originalName": "sugar",
+          "amount": 1,
+          "unit": "cup",
           "meta": [],
           "metaInformation": [],
           "measures": {
             "us": {
-              "amount": 3,
-              "unitShort": "Tbs",
-              "unitLong": "Tbs"
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
             },
             "metric": {
-              "amount": 3,
-              "unitShort": "Tbs",
-              "unitLong": "Tbs"
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
             }
           }
         },
         {
-          "id": 2053,
-          "aisle": "Oil, Vinegar, Salad Dressing",
-          "image": "vinegar-(white).jpg",
+          "id": 10814037,
+          "aisle": "Alcoholic Beverages",
+          "image": "tequila.png",
           "consistency": "liquid",
-          "name": "vinegar",
-          "nameClean": "vinegar",
-          "original": "1 Tbs vinegar",
-          "originalString": "1 Tbs vinegar",
-          "originalName": "vinegar",
-          "amount": 1,
-          "unit": "Tbs",
-          "meta": [],
-          "metaInformation": [],
-          "measures": {
-            "us": {
-              "amount": 1,
-              "unitShort": "Tbs",
-              "unitLong": "Tb"
-            },
-            "metric": {
-              "amount": 1,
-              "unitShort": "Tbs",
-              "unitLong": "Tb"
-            }
-          }
-        },
-        {
-          "id": 11215,
-          "aisle": "Produce",
-          "image": "garlic.png",
-          "consistency": "solid",
-          "name": "garlic",
-          "nameClean": "garlic",
-          "original": "2 cloves garlic, finely minced",
-          "originalString": "2 cloves garlic, finely minced",
-          "originalName": "garlic, finely minced",
-          "amount": 2,
-          "unit": "cloves",
+          "name": "tequila",
+          "nameClean": "tequila",
+          "original": "9 ounce of your favorite tequila",
+          "originalString": "9 ounce of your favorite tequila",
+          "originalName": "your favorite tequila",
+          "amount": 9,
+          "unit": "ounce",
           "meta": [
-            "finely minced"
+            "your favorite"
           ],
           "metaInformation": [
-            "finely minced"
+            "your favorite"
           ],
           "measures": {
             "us": {
-              "amount": 2,
-              "unitShort": "cloves",
-              "unitLong": "cloves"
+              "amount": 9,
+              "unitShort": "oz",
+              "unitLong": "ounces"
             },
             "metric": {
-              "amount": 2,
-              "unitShort": "cloves",
-              "unitLong": "cloves"
-            }
-          }
-        },
-        {
-          "id": 2032,
-          "aisle": "Spices and Seasonings",
-          "image": "white-pepper.png",
-          "consistency": "solid",
-          "name": "white pepper",
-          "nameClean": "ground white pepper",
-          "original": "¼ tsp white pepper",
-          "originalString": "¼ tsp white pepper",
-          "originalName": "white pepper",
-          "amount": 0.25,
-          "unit": "tsp",
-          "meta": [
-            "white"
-          ],
-          "metaInformation": [
-            "white"
-          ],
-          "measures": {
-            "us": {
-              "amount": 0.25,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
-            },
-            "metric": {
-              "amount": 0.25,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
-            }
-          }
-        },
-        {
-          "id": 2045,
-          "aisle": "Produce",
-          "image": "dill.jpg",
-          "consistency": "solid",
-          "name": "fresh dill",
-          "nameClean": "dill",
-          "original": "1 tsp fresh dill, chopped, or 1 Tbs dried dill",
-          "originalString": "1 tsp fresh dill, chopped, or 1 Tbs dried dill",
-          "originalName": "fresh dill, chopped, or 1 Tbs dried dill",
-          "amount": 1,
-          "unit": "tsp",
-          "meta": [
-            "dried",
-            "fresh",
-            "chopped"
-          ],
-          "metaInformation": [
-            "dried",
-            "fresh",
-            "chopped"
-          ],
-          "measures": {
-            "us": {
-              "amount": 1,
-              "unitShort": "tsp",
-              "unitLong": "teaspoon"
-            },
-            "metric": {
-              "amount": 1,
-              "unitShort": "tsp",
-              "unitLong": "teaspoon"
+              "amount": 255.146,
+              "unitShort": "g",
+              "unitLong": "grams"
             }
           }
         }
       ],
-      "id": 664192,
-      "title": "Tzadziki",
-      "readyInMinutes": 45,
-      "servings": 2,
-      "sourceUrl": "https://www.foodista.com/recipe/8RBBN8GT/tzadziki",
-      "image": "https://spoonacular.com/recipeImages/664192-556x370.jpg",
+      "id": 640383,
+      "title": "Cranberry Margarita",
+      "readyInMinutes": 60,
+      "servings": 6,
+      "sourceUrl": "http://www.foodista.com/recipe/3QPRFFL5/cranberry-margarita",
+      "image": "https://spoonacular.com/recipeImages/640383-556x370.jpg",
       "imageType": "jpg",
-      "summary": "Tzadziki is a <b>gluten free, lacto ovo vegetarian, and primal</b> recipe with 2 servings. One serving contains <b>451 calories</b>, <b>10g of protein</b>, and <b>39g of fat</b>. For <b>$2.71 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. 7 people were glad they tried this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes about <b>about 45 minutes</b>. Not a lot of people really liked this side dish. If you have cucumbers, olive oil, cream, and a few other ingredients on hand, you can make it. With a spoonacular <b>score of 56%</b>, this dish is solid. Try for similar recipes.",
+      "summary": "Need a <b>gluten free and vegan beverage</b>? Cranberry Margarita could be an amazing recipe to try. One serving contains <b>327 calories</b>, <b>1g of protein</b>, and <b>0g of fat</b>. This recipe serves 6 and costs $3.31 per serving. 29 people have tried and liked this recipe. A mixture of karo syrup, orange juice, grand marnier, and a handful of other ingredients are all it takes to make this recipe so flavorful. From preparation to the plate, this recipe takes approximately <b>1 hour</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 21%</b>. This score is rather bad. Try <a href=\"https://spoonacular.com/recipes/cranberry-margarita-3-129312\">Cranberry Margarita #3</a>, <a href=\"https://spoonacular.com/recipes/cranberry-margarita-55606\">Cranberry Margarita</a>, and <a href=\"https://spoonacular.com/recipes/cranberry-margarita-688267\">Cranberry Margarita</a> for similar recipes.",
       "cuisines": [],
-      "dishTypes": [
-        "side dish"
-      ],
+      "dishTypes": [],
       "diets": [
         "gluten free",
+        "dairy free",
         "lacto ovo vegetarian",
-        "primal"
+        "vegan"
       ],
       "occasions": [],
-      "instructions": "Salt lightly the cucumbers, mix and set aside for 5 minutes to release the water. To remove as much water as possible from the grated cucumber, squeeze it in small quantities with hands.\nMix and combine yogurt, sour cream, olive oil, vinegar, garlic and white pepper until smooth.\nAdd cucumbers and dill, mix and combine.Adjust the seasoning.\nChill for at least two hours before serving.",
+      "instructions": "<ol><li>In a saucepan over medium heat, melt the cup of sugar in the orange juice. Add the cranberries, reserving some for the skewers, and cook over low heat for 10 minutes. Set aside and let it cool. Blend cranberries in a blender, then strain to make the puree</li><li>In a shaker add crushed ice, 1 1/2 ounces of tequila, 1/2 ounce of Grand Marnier, 2 ounces of cranberry puree and shake to mix.</li><li>Skewer several cranberries onto 10 skewer sticks but leave enough skewer exposed on one end. Lightly brush each cranberry skewer with Karo syrup and then sprinkle extra sugar over the cranberry skewers. Place the cranberry swizzle sticks on wax paper and place in the freezer to set.</li><li>Pour drink into a sugar rimmed martini glass. Add a cranberry swizzle stick for garnish.</li><li>Note: nutritional information does not include sugar on the rim.</li></ol>",
       "analyzedInstructions": [
         {
           "name": "",
           "steps": [
             {
               "number": 1,
-              "step": "Salt lightly the cucumbers, mix and set aside for 5 minutes to release the water. To remove as much water as possible from the grated cucumber, squeeze it in small quantities with hands.",
+              "step": "In a saucepan over medium heat, melt the cup of sugar in the orange juice.",
               "ingredients": [
                 {
-                  "id": 11206,
-                  "name": "cucumber",
-                  "localizedName": "cucumber",
-                  "image": "cucumber.jpg"
+                  "id": 9206,
+                  "name": "orange juice",
+                  "localizedName": "orange juice",
+                  "image": "orange-juice.jpg"
                 },
                 {
-                  "id": 14412,
-                  "name": "water",
-                  "localizedName": "water",
-                  "image": "water.png"
-                },
-                {
-                  "id": 2047,
-                  "name": "salt",
-                  "localizedName": "salt",
-                  "image": "salt.jpg"
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
                 }
               ],
-              "equipment": [],
-              "length": {
-                "number": 5,
-                "unit": "minutes"
-              }
+              "equipment": [
+                {
+                  "id": 404669,
+                  "name": "sauce pan",
+                  "localizedName": "sauce pan",
+                  "image": "sauce-pan.jpg"
+                }
+              ]
             },
             {
               "number": 2,
-              "step": "Mix and combine yogurt, sour cream, olive oil, vinegar, garlic and white pepper until smooth.",
+              "step": "Add the cranberries, reserving some for the skewers, and cook over low heat for 10 minutes. Set aside and let it cool. Blend cranberries in a blender, then strain to make the puree",
               "ingredients": [
                 {
-                  "id": 2032,
-                  "name": "white pepper",
-                  "localizedName": "white pepper",
-                  "image": "white-pepper.png"
-                },
-                {
-                  "id": 1056,
-                  "name": "sour cream",
-                  "localizedName": "sour cream",
-                  "image": "sour-cream.jpg"
-                },
-                {
-                  "id": 4053,
-                  "name": "olive oil",
-                  "localizedName": "olive oil",
-                  "image": "olive-oil.jpg"
-                },
-                {
-                  "id": 2053,
-                  "name": "vinegar",
-                  "localizedName": "vinegar",
-                  "image": "vinegar-(white).jpg"
-                },
-                {
-                  "id": 11215,
-                  "name": "garlic",
-                  "localizedName": "garlic",
-                  "image": "garlic.png"
-                },
-                {
-                  "id": 1116,
-                  "name": "yogurt",
-                  "localizedName": "yogurt",
-                  "image": "plain-yogurt.jpg"
+                  "id": 9078,
+                  "name": "cranberries",
+                  "localizedName": "cranberries",
+                  "image": "cranberries.jpg"
                 }
               ],
-              "equipment": []
+              "equipment": [
+                {
+                  "id": 404726,
+                  "name": "blender",
+                  "localizedName": "blender",
+                  "image": "blender.png"
+                },
+                {
+                  "id": 3065,
+                  "name": "skewers",
+                  "localizedName": "skewers",
+                  "image": "wooden-skewers.jpg"
+                }
+              ],
+              "length": {
+                "number": 10,
+                "unit": "minutes"
+              }
             },
             {
               "number": 3,
-              "step": "Add cucumbers and dill, mix and combine.Adjust the seasoning.",
+              "step": "In a shaker add crushed ice, 1 1/2 ounces of tequila, 1/2 ounce of Grand Marnier, 2 ounces of cranberry puree and shake to mix.Skewer several cranberries onto 10 skewer sticks but leave enough skewer exposed on one end. Lightly brush each cranberry skewer with Karo syrup and then sprinkle extra sugar over the cranberry skewers.",
               "ingredients": [
                 {
-                  "id": 11206,
-                  "name": "cucumber",
-                  "localizedName": "cucumber",
-                  "image": "cucumber.jpg"
+                  "id": 0,
+                  "name": "cranberry puree",
+                  "localizedName": "cranberry puree",
+                  "image": ""
                 },
                 {
-                  "id": 1042027,
-                  "name": "seasoning",
-                  "localizedName": "seasoning",
-                  "image": "seasoning.png"
+                  "id": 10314534,
+                  "name": "grand marnier",
+                  "localizedName": "grand marnier",
+                  "image": "grand-marnier.jpg"
                 },
                 {
-                  "id": 2045,
-                  "name": "dill",
-                  "localizedName": "dill",
-                  "image": "dill.jpg"
+                  "id": 9078,
+                  "name": "cranberries",
+                  "localizedName": "cranberries",
+                  "image": "cranberries.jpg"
+                },
+                {
+                  "id": 10114412,
+                  "name": "crushed ice cubes",
+                  "localizedName": "crushed ice cubes",
+                  "image": "crushed-ice.png"
+                },
+                {
+                  "id": 10814037,
+                  "name": "tequila",
+                  "localizedName": "tequila",
+                  "image": "tequila.png"
+                },
+                {
+                  "id": 0,
+                  "name": "shake",
+                  "localizedName": "shake",
+                  "image": ""
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 0,
+                  "name": "syrup",
+                  "localizedName": "syrup",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 3065,
+                  "name": "skewers",
+                  "localizedName": "skewers",
+                  "image": "wooden-skewers.jpg"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Place the cranberry swizzle sticks on wax paper and place in the freezer to set.",
+              "ingredients": [
+                {
+                  "id": 9078,
+                  "name": "cranberries",
+                  "localizedName": "cranberries",
+                  "image": "cranberries.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404739,
+                  "name": "wax paper",
+                  "localizedName": "wax paper",
+                  "image": "wax-paper.jpg"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "step": "Pour drink into a sugar rimmed martini glass.",
+              "ingredients": [
+                {
+                  "id": 0,
+                  "name": "martini",
+                  "localizedName": "martini",
+                  "image": "rum-dark.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "drink",
+                  "localizedName": "drink",
+                  "image": ""
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
                 }
               ],
               "equipment": []
             },
             {
-              "number": 4,
-              "step": "Chill for at least two hours before serving.",
-              "ingredients": [],
-              "equipment": [],
-              "length": {
-                "number": 120,
-                "unit": "minutes"
-              }
+              "number": 6,
+              "step": "Add a cranberry swizzle stick for garnish.Note: nutritional information does not include sugar on the rim.",
+              "ingredients": [
+                {
+                  "id": 9078,
+                  "name": "cranberries",
+                  "localizedName": "cranberries",
+                  "image": "cranberries.jpg"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                }
+              ],
+              "equipment": []
             }
           ]
         }
       ],
       "originalId": null,
-      "spoonacularSourceUrl": "https://spoonacular.com/tzadziki-664192"
+      "spoonacularSourceUrl": "https://spoonacular.com/cranberry-margarita-640383"
     }
   ]
 }
