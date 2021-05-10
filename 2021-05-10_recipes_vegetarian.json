@@ -1,0 +1,420 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 20,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 10,
+      "spoonacularScore": 42,
+      "healthScore": 6,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 109.99,
+      "extendedIngredients": [
+        {
+          "id": 1123,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "egg.png",
+          "consistency": "solid",
+          "name": "eggs",
+          "nameClean": "egg",
+          "original": "8 eggs, only egg yolks",
+          "originalString": "8 eggs, only egg yolks",
+          "originalName": "eggs, only egg yolks",
+          "amount": 8,
+          "unit": "",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 8,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 8,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 1053,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "fluid-cream.jpg",
+          "consistency": "liquid",
+          "name": "heavy cream",
+          "nameClean": "cream",
+          "original": "1 cup heavy cream",
+          "originalString": "1 cup heavy cream",
+          "originalName": "heavy cream",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 9266,
+          "aisle": "Produce",
+          "image": "pineapple.jpg",
+          "consistency": "solid",
+          "name": "pineapple",
+          "nameClean": "pineapple",
+          "original": "3 cups of pineapple (or other fruit), cleaned and cut into small pieces",
+          "originalString": "3 cups of pineapple (or other fruit), cleaned and cut into small pieces",
+          "originalName": "pineapple (or other fruit), cleaned and cut into small pieces",
+          "amount": 3,
+          "unit": "cups",
+          "meta": [
+            "cleaned",
+            "cut into small pieces",
+            "(or other fruit)"
+          ],
+          "metaInformation": [
+            "cleaned",
+            "cut into small pieces",
+            "(or other fruit)"
+          ],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 709.764,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1090,
+          "aisle": "Baking",
+          "image": "milk-powdered.jpg",
+          "consistency": "solid",
+          "name": "powdered milk",
+          "nameClean": "powdered milk",
+          "original": "¼ cup powdered milk",
+          "originalString": "¼ cup powdered milk",
+          "originalName": "powdered milk",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 19335,
+          "aisle": "Baking",
+          "image": "sugar-in-bowl.png",
+          "consistency": "solid",
+          "name": "sugar",
+          "nameClean": "sugar",
+          "original": "1 cup sugar",
+          "originalString": "1 cup sugar",
+          "originalName": "sugar",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 2050,
+          "aisle": "Baking",
+          "image": "vanilla-extract.jpg",
+          "consistency": "liquid",
+          "name": "vanilla extract",
+          "nameClean": "vanilla extract",
+          "original": "1 tsp vanilla extract",
+          "originalString": "1 tsp vanilla extract",
+          "originalName": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 1077,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "milk.png",
+          "consistency": "liquid",
+          "name": "whole milk",
+          "nameClean": "milk",
+          "original": "2 cups whole milk",
+          "originalString": "2 cups whole milk",
+          "originalName": "whole milk",
+          "amount": 2,
+          "unit": "cups",
+          "meta": [
+            "whole"
+          ],
+          "metaInformation": [
+            "whole"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 473.176,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        }
+      ],
+      "id": 647068,
+      "title": "Homemade pineapple ice cream",
+      "readyInMinutes": 45,
+      "servings": 6,
+      "sourceUrl": "http://www.foodista.com/recipe/4MN7KFYB/homemade-pineapple-ice-cream",
+      "image": "https://spoonacular.com/recipeImages/647068-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Homemade pineapple ice cream is a <b>gluten free and vegetarian</b> dessert. For <b>$1.1 per serving</b>, this recipe <b>covers 16%</b> of your daily requirements of vitamins and minerals. One serving contains <b>469 calories</b>, <b>13g of protein</b>, and <b>24g of fat</b>. It can be enjoyed any time, but it is especially good for <b>Summer</b>. 9 people have tried and liked this recipe. If you have eggs, milk, vanillan extract, and a few other ingredients on hand, you can make it. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 45%</b>. This score is solid. Try <a href=\"https://spoonacular.com/recipes/homemade-drumsticks-ice-cream-913535\">Homemade Drumsticks Ice Cream</a>, <a href=\"https://spoonacular.com/recipes/homemade-ice-cream-crunch-cake-912064\">Homemade Ice Cream Crunch Cake</a>, and <a href=\"https://spoonacular.com/recipes/homemade-fresh-pineapple-ice-cream-488356\">Homemade fresh Pineapple Ice cream</a> for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "lacto ovo vegetarian"
+      ],
+      "occasions": [
+        "summer"
+      ],
+      "instructions": "<ol><li>In a large pot mix the milk, sugar and powdered milk. Bring the mix to a low simmer over medium heat and stir to dissolve the sugar, then turn the heat down and just keep it warm.</li><li>Put the egg yolks in a medium bowl and whisk for 2 minutes until they are thickened.</li><li>While constantly whisking, slowly add 1 cup of the hot milk mixture and whisk until it is blended. Then pour the egg mixture back into the pot of hot milk and increase heat to medium. Stir the mixture constantly with a wooden or plastic spoon, until the mixture is thickened (like gravy).</li><li>Stir in whipping cream and vanilla. Cover and put into the refrigerator for at least 6 hours (or overnight) before making the ice cream in the ice cream maker.</li><li>Blend fruit in a food processor or blender to a puree consistency.</li><li>Stir the pureed fruit into the milk and egg mixture. Mix thoroughly.</li><li>Pour the mixture into an ice cream machine and churn until frozen, 15-20 minutes, according to the manufacturers instructions.</li><li>Transfer to plastic container and place in the freezer for an hour before serving.</li></ol>",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "In a large pot mix the milk, sugar and powdered milk. Bring the mix to a low simmer over medium heat and stir to dissolve the sugar, then turn the heat down and just keep it warm.",
+              "ingredients": [
+                {
+                  "id": 1090,
+                  "name": "powdered milk",
+                  "localizedName": "powdered milk",
+                  "image": "milk-powdered.jpg"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 1077,
+                  "name": "milk",
+                  "localizedName": "milk",
+                  "image": "milk.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Put the egg yolks in a medium bowl and whisk for 2 minutes until they are thickened.While constantly whisking, slowly add 1 cup of the hot milk mixture and whisk until it is blended. Then pour the egg mixture back into the pot of hot milk and increase heat to medium. Stir the mixture constantly with a wooden or plastic spoon, until the mixture is thickened (like gravy).Stir in whipping cream and vanilla. Cover and put into the refrigerator for at least 6 hours (or overnight) before making the ice cream in the ice cream maker.Blend fruit in a food processor or blender to a puree consistency.Stir the pureed fruit into the milk and egg mixture.",
+              "ingredients": [
+                {
+                  "id": 1001053,
+                  "name": "whipping cream",
+                  "localizedName": "whipping cream",
+                  "image": "fluid-cream.jpg"
+                },
+                {
+                  "id": 1125,
+                  "name": "egg yolk",
+                  "localizedName": "egg yolk",
+                  "image": "egg-yolk.jpg"
+                },
+                {
+                  "id": 19095,
+                  "name": "ice cream",
+                  "localizedName": "ice cream",
+                  "image": "vanilla-ice-cream.png"
+                },
+                {
+                  "id": 1052050,
+                  "name": "vanilla",
+                  "localizedName": "vanilla",
+                  "image": "vanilla.jpg"
+                },
+                {
+                  "id": 9431,
+                  "name": "fruit",
+                  "localizedName": "fruit",
+                  "image": "mixed-fresh-fruit.jpg"
+                },
+                {
+                  "id": 6997,
+                  "name": "gravy",
+                  "localizedName": "gravy",
+                  "image": "gravy.jpg"
+                },
+                {
+                  "id": 1077,
+                  "name": "milk",
+                  "localizedName": "milk",
+                  "image": "milk.png"
+                },
+                {
+                  "id": 1123,
+                  "name": "egg",
+                  "localizedName": "egg",
+                  "image": "egg.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404791,
+                  "name": "ice cream machine",
+                  "localizedName": "ice cream machine",
+                  "image": "ice-cream-machine.jpg"
+                },
+                {
+                  "id": 404771,
+                  "name": "food processor",
+                  "localizedName": "food processor",
+                  "image": "food-processor.png"
+                },
+                {
+                  "id": 404661,
+                  "name": "whisk",
+                  "localizedName": "whisk",
+                  "image": "whisk.png"
+                },
+                {
+                  "id": 404726,
+                  "name": "blender",
+                  "localizedName": "blender",
+                  "image": "blender.png"
+                },
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                },
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ],
+              "length": {
+                "number": 362,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Mix thoroughly.",
+              "ingredients": [],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Pour the mixture into an ice cream machine and churn until frozen, 15-20 minutes, according to the manufacturers instructions.",
+              "ingredients": [
+                {
+                  "id": 19095,
+                  "name": "ice cream",
+                  "localizedName": "ice cream",
+                  "image": "vanilla-ice-cream.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404791,
+                  "name": "ice cream machine",
+                  "localizedName": "ice cream machine",
+                  "image": "ice-cream-machine.jpg"
+                }
+              ],
+              "length": {
+                "number": 20,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 5,
+              "step": "Transfer to plastic container and place in the freezer for an hour before serving.",
+              "ingredients": [],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/homemade-pineapple-ice-cream-647068"
+    }
+  ]
+}
