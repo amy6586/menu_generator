@@ -1,0 +1,432 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 16,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 7,
+      "spoonacularScore": 57,
+      "healthScore": 13,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 271.05,
+      "extendedIngredients": [
+        {
+          "id": 11206,
+          "aisle": "Produce",
+          "image": "cucumber.jpg",
+          "consistency": "solid",
+          "name": "cucumbers",
+          "nameClean": "cucumber",
+          "original": "2 cucumbers, peeled, seeded and coarsely grated",
+          "originalString": "2 cucumbers, peeled, seeded and coarsely grated",
+          "originalName": "cucumbers, peeled, seeded and coarsely grated",
+          "amount": 2,
+          "unit": "",
+          "meta": [
+            "grated",
+            "peeled",
+            "seeded"
+          ],
+          "metaInformation": [
+            "grated",
+            "peeled",
+            "seeded"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 1012047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt.jpg",
+          "consistency": "solid",
+          "name": "sea salt",
+          "nameClean": "sea salt",
+          "original": "¼ tsp sea salt",
+          "originalString": "¼ tsp sea salt",
+          "originalName": "sea salt",
+          "amount": 0.25,
+          "unit": "tsp",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1116,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "plain-yogurt.jpg",
+          "consistency": "solid",
+          "name": "yogurt",
+          "nameClean": "yogurt",
+          "original": "1 ½ cups of yogurt",
+          "originalString": "1 ½ cups of yogurt",
+          "originalName": "yogurt",
+          "amount": 1.5,
+          "unit": "cups",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 354.882,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1056,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "sour-cream.jpg",
+          "consistency": "solid",
+          "name": "sour cream",
+          "nameClean": "sour cream",
+          "original": "½ cup sour cream",
+          "originalString": "½ cup sour cream",
+          "originalName": "sour cream",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [
+            "sour"
+          ],
+          "metaInformation": [
+            "sour"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "liquid",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "3 Tbs olive oil",
+          "originalString": "3 Tbs olive oil",
+          "originalName": "olive oil",
+          "amount": 3,
+          "unit": "Tbs",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "Tbs",
+              "unitLong": "Tbs"
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "Tbs",
+              "unitLong": "Tbs"
+            }
+          }
+        },
+        {
+          "id": 2053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "vinegar-(white).jpg",
+          "consistency": "liquid",
+          "name": "vinegar",
+          "nameClean": "vinegar",
+          "original": "1 Tbs vinegar",
+          "originalString": "1 Tbs vinegar",
+          "originalName": "vinegar",
+          "amount": 1,
+          "unit": "Tbs",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbs",
+              "unitLong": "Tb"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbs",
+              "unitLong": "Tb"
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "solid",
+          "name": "garlic",
+          "nameClean": "garlic",
+          "original": "2 cloves garlic, finely minced",
+          "originalString": "2 cloves garlic, finely minced",
+          "originalName": "garlic, finely minced",
+          "amount": 2,
+          "unit": "cloves",
+          "meta": [
+            "finely minced"
+          ],
+          "metaInformation": [
+            "finely minced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            }
+          }
+        },
+        {
+          "id": 2032,
+          "aisle": "Spices and Seasonings",
+          "image": "white-pepper.png",
+          "consistency": "solid",
+          "name": "white pepper",
+          "nameClean": "ground white pepper",
+          "original": "¼ tsp white pepper",
+          "originalString": "¼ tsp white pepper",
+          "originalName": "white pepper",
+          "amount": 0.25,
+          "unit": "tsp",
+          "meta": [
+            "white"
+          ],
+          "metaInformation": [
+            "white"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2045,
+          "aisle": "Produce",
+          "image": "dill.jpg",
+          "consistency": "solid",
+          "name": "fresh dill",
+          "nameClean": "dill",
+          "original": "1 tsp fresh dill, chopped, or 1 Tbs dried dill",
+          "originalString": "1 tsp fresh dill, chopped, or 1 Tbs dried dill",
+          "originalName": "fresh dill, chopped, or 1 Tbs dried dill",
+          "amount": 1,
+          "unit": "tsp",
+          "meta": [
+            "dried",
+            "fresh",
+            "chopped"
+          ],
+          "metaInformation": [
+            "dried",
+            "fresh",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        }
+      ],
+      "id": 664192,
+      "title": "Tzadziki",
+      "readyInMinutes": 45,
+      "servings": 2,
+      "sourceUrl": "https://www.foodista.com/recipe/8RBBN8GT/tzadziki",
+      "image": "https://spoonacular.com/recipeImages/664192-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Tzadziki is a <b>gluten free, lacto ovo vegetarian, and primal</b> recipe with 2 servings. One serving contains <b>451 calories</b>, <b>10g of protein</b>, and <b>39g of fat</b>. For <b>$2.71 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. 7 people were glad they tried this recipe. It is brought to you by Foodista. From preparation to the plate, this recipe takes about <b>about 45 minutes</b>. Not a lot of people really liked this side dish. If you have cucumbers, olive oil, cream, and a few other ingredients on hand, you can make it. With a spoonacular <b>score of 56%</b>, this dish is solid. Try for similar recipes.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "occasions": [],
+      "instructions": "Salt lightly the cucumbers, mix and set aside for 5 minutes to release the water. To remove as much water as possible from the grated cucumber, squeeze it in small quantities with hands.\nMix and combine yogurt, sour cream, olive oil, vinegar, garlic and white pepper until smooth.\nAdd cucumbers and dill, mix and combine.Adjust the seasoning.\nChill for at least two hours before serving.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Salt lightly the cucumbers, mix and set aside for 5 minutes to release the water. To remove as much water as possible from the grated cucumber, squeeze it in small quantities with hands.",
+              "ingredients": [
+                {
+                  "id": 11206,
+                  "name": "cucumber",
+                  "localizedName": "cucumber",
+                  "image": "cucumber.jpg"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 2,
+              "step": "Mix and combine yogurt, sour cream, olive oil, vinegar, garlic and white pepper until smooth.",
+              "ingredients": [
+                {
+                  "id": 2032,
+                  "name": "white pepper",
+                  "localizedName": "white pepper",
+                  "image": "white-pepper.png"
+                },
+                {
+                  "id": 1056,
+                  "name": "sour cream",
+                  "localizedName": "sour cream",
+                  "image": "sour-cream.jpg"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 2053,
+                  "name": "vinegar",
+                  "localizedName": "vinegar",
+                  "image": "vinegar-(white).jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 1116,
+                  "name": "yogurt",
+                  "localizedName": "yogurt",
+                  "image": "plain-yogurt.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Add cucumbers and dill, mix and combine.Adjust the seasoning.",
+              "ingredients": [
+                {
+                  "id": 11206,
+                  "name": "cucumber",
+                  "localizedName": "cucumber",
+                  "image": "cucumber.jpg"
+                },
+                {
+                  "id": 1042027,
+                  "name": "seasoning",
+                  "localizedName": "seasoning",
+                  "image": "seasoning.png"
+                },
+                {
+                  "id": 2045,
+                  "name": "dill",
+                  "localizedName": "dill",
+                  "image": "dill.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Chill for at least two hours before serving.",
+              "ingredients": [],
+              "equipment": [],
+              "length": {
+                "number": 120,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/tzadziki-664192"
+    }
+  ]
+}
