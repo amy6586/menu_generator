@@ -1,0 +1,477 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": true,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 27,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 1544,
+      "spoonacularScore": 90,
+      "healthScore": 22,
+      "creditsText": "Jen West",
+      "sourceName": "Pink When",
+      "pricePerServing": 155.09,
+      "extendedIngredients": [
+        {
+          "id": 1001,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "solid",
+          "name": "butter",
+          "nameClean": "butter",
+          "original": "4 tbsp. butter + more for mixing",
+          "originalString": "4 tbsp. butter + more for mixing",
+          "originalName": "butter + more for mixing",
+          "amount": 4,
+          "unit": "tbsp",
+          "meta": [
+            "for mixing"
+          ],
+          "metaInformation": [
+            "for mixing"
+          ],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 4,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 1077,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "milk.png",
+          "consistency": "liquid",
+          "name": "milk",
+          "nameClean": "milk",
+          "original": "½ cup milk+ more for mixing",
+          "originalString": "½ cup milk+ more for mixing",
+          "originalName": "milk+ more for mixing",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [
+            "for mixing"
+          ],
+          "metaInformation": [
+            "for mixing"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "solid",
+          "name": "onions",
+          "nameClean": "onion",
+          "original": "2 large onions, sliced",
+          "originalString": "2 large onions, sliced",
+          "originalName": "onions, sliced",
+          "amount": 2,
+          "unit": "large",
+          "meta": [
+            "sliced"
+          ],
+          "metaInformation": [
+            "sliced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
+            }
+          }
+        },
+        {
+          "id": 1102047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt-and-pepper.jpg",
+          "consistency": "solid",
+          "name": "salt and pepper",
+          "nameClean": "salt and pepper",
+          "original": "salt and pepper to taste",
+          "originalString": "salt and pepper to taste",
+          "originalName": "salt and pepper to taste",
+          "amount": 4,
+          "unit": "servings",
+          "meta": [
+            "to taste"
+          ],
+          "metaInformation": [
+            "to taste"
+          ],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 4,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 1031009,
+          "aisle": "Cheese",
+          "image": "cheddar-cheese.png",
+          "consistency": "solid",
+          "name": "sharp cheddar cheese",
+          "nameClean": "sharp cheddar cheese",
+          "original": "1½ cups sharp cheddar cheese, shredded",
+          "originalString": "1½ cups sharp cheddar cheese, shredded",
+          "originalName": "sharp cheddar cheese, shredded",
+          "amount": 1.5,
+          "unit": "cups",
+          "meta": [
+            "shredded"
+          ],
+          "metaInformation": [
+            "shredded"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 354.882,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 10111362,
+          "aisle": "Produce",
+          "image": "potatoes-yukon-gold.png",
+          "consistency": "solid",
+          "name": "white potatoes",
+          "nameClean": "white potato",
+          "original": "1 lb. white potatoes, peeled, cubed and then boiled until tender",
+          "originalString": "1 lb. white potatoes, peeled, cubed and then boiled until tender",
+          "originalName": "white potatoes, peeled, cubed and then boiled until tender",
+          "amount": 1,
+          "unit": "lb",
+          "meta": [
+            "white",
+            "boiled",
+            "cubed",
+            "peeled"
+          ],
+          "metaInformation": [
+            "white",
+            "boiled",
+            "cubed",
+            "peeled"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "lb",
+              "unitLong": "pound"
+            },
+            "metric": {
+              "amount": 453.592,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 20409,
+          "aisle": "Pasta and Rice",
+          "image": "egg-noodles.jpg",
+          "consistency": "solid",
+          "name": "wide egg noodles",
+          "nameClean": "wide egg noodles",
+          "original": "1 lb. extra wide egg noodles",
+          "originalString": "1 lb. extra wide egg noodles",
+          "originalName": "extra wide egg noodles",
+          "amount": 1,
+          "unit": "lb",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "lb",
+              "unitLong": "pound"
+            },
+            "metric": {
+              "amount": 453.592,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        }
+      ],
+      "id": 715563,
+      "title": "Pierogi Casserole",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "sourceUrl": "http://www.pinkwhen.com/pierogi-casserole/",
+      "image": "https://spoonacular.com/recipeImages/715563-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "If you have approximately <b>45 minutes</b> to spend in the kitchen, Pierogi Casserole might be a tremendous <b>lacto ovo vegetarian</b> recipe to try. One portion of this dish contains around <b>31g of protein</b>, <b>32g of fat</b>, and a total of <b>814 calories</b>. For <b>$1.51 per serving</b>, this recipe <b>covers 29%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. It is brought to you by Pink When. <b>Winter</b> will be even more special with this recipe. This recipe is typical of Eastern European cuisine. This recipe is liked by 1545 foodies and cooks. Plenty of people really liked this main course. A mixture of butter, sharp cheddar cheese, potatoes, and a handful of other ingredients are all it takes to make this recipe so yummy. With a spoonacular <b>score of 84%</b>, this dish is great. If you like this recipe, you might also like recipes such as <a href=\"https://spoonacular.com/recipes/easy-pierogi-casserole-276341\">Easy \"Pierogi\" Casserole</a>, <a href=\"https://spoonacular.com/recipes/american-pierogi-casserole-927459\">American Pierogi Casserole</a>, and <a href=\"https://spoonacular.com/recipes/kluski-pierogi-casserole-93276\">Kluski-Pierogi Casserole</a>.",
+      "cuisines": [
+        "Eastern European",
+        "European"
+      ],
+      "dishTypes": [
+        "lunch",
+        "main course",
+        "main dish",
+        "dinner"
+      ],
+      "diets": [
+        "lacto ovo vegetarian"
+      ],
+      "occasions": [
+        "fall",
+        "winter"
+      ],
+      "instructions": "<ol><li>Preheat oven to 375 degrees. Spray a large 2 large casserole dish with cooking spray.</li><li>Three separate items need cooked. You can cook them all at once to avoid having one sit aside for too long.</li><li>(Prepare your potatoes and set aside) Meanwhile, boil your noodles but reduce cooking time by 4 minutes to avoid overcooking. Drain and set aside. Prepare your onions by cooking in the 4 tbsp. of butter over medium heat until tender.</li><li>Add milk, 1 cup of cheese, salt and pepper, and onion mixture to your potatoes. Mash using a large wooden spoon or a hand held potato masher. Mash until soft, but some chunks remain. You don't want a completely smooth texture. Add in your noodles and toss to coat. Taste for seasoning and add more if necessary. If mixture seems dry, add more milk and butter until the entire mixture is lightly coated. Place in casserole dish. Sprinkle with the remaining ½ cup of cheese. Bake in your preheated oven for 25 minutes or until cheese starts to bubble. Serve immediately and enjoy!</li></ol>",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Preheat oven to 375 degrees. Spray a large 2 large casserole dish with cooking spray.Three separate items need cooked. You can cook them all at once to avoid having one sit aside for too long.(Prepare your potatoes and set aside) Meanwhile, boil your noodles but reduce cooking time by 4 minutes to avoid overcooking.",
+              "ingredients": [
+                {
+                  "id": 4679,
+                  "name": "cooking spray",
+                  "localizedName": "cooking spray",
+                  "image": "cooking-spray.png"
+                },
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                },
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404635,
+                  "name": "casserole dish",
+                  "localizedName": "casserole dish",
+                  "image": "casserole-dish.png"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 4,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 2,
+              "step": "Drain and set aside. Prepare your onions by cooking in the 4 tbsp. of butter over medium heat until tender.",
+              "ingredients": [
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Add milk, 1 cup of cheese, salt and pepper, and onion mixture to your potatoes. Mash using a large wooden spoon or a hand held potato masher. Mash until soft, but some chunks remain. You don't want a completely smooth texture.",
+              "ingredients": [
+                {
+                  "id": 1102047,
+                  "name": "salt and pepper",
+                  "localizedName": "salt and pepper",
+                  "image": "salt-and-pepper.jpg"
+                },
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                },
+                {
+                  "id": 1041009,
+                  "name": "cheese",
+                  "localizedName": "cheese",
+                  "image": "cheddar-cheese.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 1077,
+                  "name": "milk",
+                  "localizedName": "milk",
+                  "image": "milk.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404763,
+                  "name": "potato masher",
+                  "localizedName": "potato masher",
+                  "image": "potato-masher.jpg"
+                },
+                {
+                  "id": 404732,
+                  "name": "wooden spoon",
+                  "localizedName": "wooden spoon",
+                  "image": "wooden-spoon.jpg"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "step": "Add in your noodles and toss to coat. Taste for seasoning and add more if necessary. If mixture seems dry, add more milk and butter until the entire mixture is lightly coated.",
+              "ingredients": [
+                {
+                  "id": 1042027,
+                  "name": "seasoning",
+                  "localizedName": "seasoning",
+                  "image": "seasoning.png"
+                },
+                {
+                  "id": 20420,
+                  "name": "pasta",
+                  "localizedName": "pasta",
+                  "image": "fusilli.jpg"
+                },
+                {
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
+                },
+                {
+                  "id": 1077,
+                  "name": "milk",
+                  "localizedName": "milk",
+                  "image": "milk.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Place in casserole dish.",
+              "ingredients": [],
+              "equipment": [
+                {
+                  "id": 404635,
+                  "name": "casserole dish",
+                  "localizedName": "casserole dish",
+                  "image": "casserole-dish.png"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "step": "Sprinkle with the remaining ½ cup of cheese.",
+              "ingredients": [
+                {
+                  "id": 1041009,
+                  "name": "cheese",
+                  "localizedName": "cheese",
+                  "image": "cheddar-cheese.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 7,
+              "step": "Bake in your preheated oven for 25 minutes or until cheese starts to bubble.",
+              "ingredients": [
+                {
+                  "id": 1041009,
+                  "name": "cheese",
+                  "localizedName": "cheese",
+                  "image": "cheddar-cheese.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                }
+              ],
+              "length": {
+                "number": 25,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 8,
+              "step": "Serve immediately and enjoy!",
+              "ingredients": [],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/pierogi-casserole-715563"
+    }
+  ]
+}
