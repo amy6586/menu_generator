@@ -1,0 +1,506 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 2,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 10,
+      "spoonacularScore": 88,
+      "healthScore": 35,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 54.61,
+      "extendedIngredients": [
+        {
+          "id": 10211821,
+          "aisle": "Produce",
+          "image": "bell-pepper-orange.png",
+          "consistency": "solid",
+          "name": "bell pepper",
+          "nameClean": "bell pepper",
+          "original": "1 large bell pepper, diced",
+          "originalString": "1 large bell pepper, diced",
+          "originalName": "bell pepper, diced",
+          "amount": 1,
+          "unit": "large",
+          "meta": [
+            "diced"
+          ],
+          "metaInformation": [
+            "diced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            }
+          }
+        },
+        {
+          "id": 16018,
+          "aisle": "Canned and Jarred",
+          "image": "black-beans.jpg",
+          "consistency": "solid",
+          "name": "canned black beans",
+          "nameClean": "canned black beans",
+          "original": "1 (14 ounce) can black beans, rinsed and drained",
+          "originalString": "1 (14 ounce) can black beans, rinsed and drained",
+          "originalName": "black beans, rinsed and drained",
+          "amount": 14,
+          "unit": "ounce",
+          "meta": [
+            "rinsed",
+            "drained",
+            "canned"
+          ],
+          "metaInformation": [
+            "rinsed",
+            "drained",
+            "canned"
+          ],
+          "measures": {
+            "us": {
+              "amount": 14,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 396.893,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 10011693,
+          "aisle": "Canned and Jarred",
+          "image": "tomatoes-canned.png",
+          "consistency": "solid",
+          "name": "canned tomatoes",
+          "nameClean": "canned tomatoes",
+          "original": "1 28-ounce can crushed or puréed tomatoes",
+          "originalString": "1 28-ounce can crushed or puréed tomatoes",
+          "originalName": "crushed or puréed tomatoes",
+          "amount": 28,
+          "unit": "ounce",
+          "meta": [
+            "crushed",
+            "canned"
+          ],
+          "metaInformation": [
+            "crushed",
+            "canned"
+          ],
+          "measures": {
+            "us": {
+              "amount": 28,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 793.787,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 2009,
+          "aisle": "Spices and Seasonings",
+          "image": "chili-powder.jpg",
+          "consistency": "solid",
+          "name": "chili powder",
+          "nameClean": "chili powder",
+          "original": "2 teaspoons chili powder",
+          "originalString": "2 teaspoons chili powder",
+          "originalName": "chili powder",
+          "amount": 2,
+          "unit": "teaspoons",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1022020,
+          "aisle": "Spices and Seasonings",
+          "image": "garlic-powder.png",
+          "consistency": "solid",
+          "name": "garlic powder",
+          "nameClean": "garlic powder",
+          "original": "1 teaspoon garlic powder",
+          "originalString": "1 teaspoon garlic powder",
+          "originalName": "garlic powder",
+          "amount": 1,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 1002014,
+          "aisle": "Spices and Seasonings",
+          "image": "ground-cumin.jpg",
+          "consistency": "solid",
+          "name": "ground cumin",
+          "nameClean": "cumin",
+          "original": "1/2 teaspoon ground cumin",
+          "originalString": "1/2 teaspoon ground cumin",
+          "originalName": "ground cumin",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1054053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "liquid",
+          "name": "light olive oil",
+          "nameClean": "light olive oil",
+          "original": "1 1/2 tablespoons light or extra-virgin olive oil",
+          "originalString": "1 1/2 tablespoons light or extra-virgin olive oil",
+          "originalName": "light or extra-virgin olive oil",
+          "amount": 1.5,
+          "unit": "tablespoons",
+          "meta": [
+            "light",
+            "extra-virgin"
+          ],
+          "metaInformation": [
+            "light",
+            "extra-virgin"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1.5,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 1.5,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "solid",
+          "name": "onion",
+          "nameClean": "onion",
+          "original": "1 cup chopped onion",
+          "originalString": "1 cup chopped onion",
+          "originalName": "chopped onion",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [
+            "chopped"
+          ],
+          "metaInformation": [
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 2027,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "oregano.jpg",
+          "consistency": "solid",
+          "name": "oregano",
+          "nameClean": "oregano",
+          "original": "1 teaspoon dried oregano",
+          "originalString": "1 teaspoon dried oregano",
+          "originalName": "dried oregano",
+          "amount": 1,
+          "unit": "teaspoon",
+          "meta": [
+            "dried"
+          ],
+          "metaInformation": [
+            "dried"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 2028,
+          "aisle": "Spices and Seasonings",
+          "image": "paprika.jpg",
+          "consistency": "solid",
+          "name": "paprika",
+          "nameClean": "paprika",
+          "original": "1 teaspoon paprika",
+          "originalString": "1 teaspoon paprika",
+          "originalName": "paprika",
+          "amount": 1,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        }
+      ],
+      "id": 635058,
+      "title": "Black Bean and Peppers Taco Filling",
+      "readyInMinutes": 45,
+      "servings": 8,
+      "sourceUrl": "http://www.foodista.com/recipe/L7GY4PX3/black-bean-and-peppers-taco-filling",
+      "image": "https://spoonacular.com/recipeImages/635058-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "The recipe Black Bean and Peppers Taco Filling is ready <b>in roughly 45 minutes</b> and is definitely an excellent <b>gluten free and vegan</b> option for lovers of Mexican food. For <b>52 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. This recipe makes 8 servings with <b>117 calories</b>, <b>5g of protein</b>, and <b>3g of fat</b> each. This recipe is liked by 10 foodies and cooks. Head to the store and pick up chili powder, paprika, canned tomatoes, and a few other things to make it today. All things considered, we decided this recipe <b>deserves a spoonacular score of 87%</b>. This score is amazing. Try <a href=\"https://spoonacular.com/recipes/kale-turkey-and-black-bean-taco-filling-plus-5-ways-to-use-it-506463\">Kale, Turkey and Black Bean Taco Filling -Plus 5 Ways to Use It</a>, <a href=\"https://spoonacular.com/recipes/pinquito-bean-and-quinoa-taco-filling-628625\">Pinquito Bean and Quinoa Taco Filling</a>, and <a href=\"https://spoonacular.com/recipes/easy-baked-refried-bean-dip-or-taco-or-burrito-filling-859342\">Easy Baked Refried Bean Dip (or taco or burrito filling)</a> for similar recipes.",
+      "cuisines": [
+        "Mexican"
+      ],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [],
+      "instructions": "<ol><li>In a skillet add olive oil, onions and bell pepper. Cook until tender, about 3  5 minutes. Add tomatoes and seasonings, saute for 10 minutes. Add black beans and cook until warm.</li><li>Serve with tortillas.</li><li>Additional toppings: Romaine Lettuce, Cheese, jalapenos, salsa, hot sauce, avocado, and greek yogurt</li></ol>",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "In a skillet add olive oil, onions and bell pepper. Cook until tender, about 3  5 minutes.",
+              "ingredients": [
+                {
+                  "id": 10211821,
+                  "name": "bell pepper",
+                  "localizedName": "bell pepper",
+                  "image": "bell-pepper-orange.png"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 2,
+              "step": "Add tomatoes and seasonings, saute for 10 minutes.",
+              "ingredients": [
+                {
+                  "id": 1042027,
+                  "name": "seasoning",
+                  "localizedName": "seasoning",
+                  "image": "seasoning.png"
+                },
+                {
+                  "id": 11529,
+                  "name": "tomato",
+                  "localizedName": "tomato",
+                  "image": "tomato.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 10,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Add black beans and cook until warm.",
+              "ingredients": [
+                {
+                  "id": 16015,
+                  "name": "black beans",
+                  "localizedName": "black beans",
+                  "image": "black-beans.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 4,
+              "step": "Serve with tortillas.",
+              "ingredients": [
+                {
+                  "id": 18364,
+                  "name": "tortilla",
+                  "localizedName": "tortilla",
+                  "image": "flour-tortilla.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Additional toppings: Romaine",
+              "ingredients": [
+                {
+                  "id": 10111251,
+                  "name": "romaine",
+                  "localizedName": "romaine",
+                  "image": "romaine"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 6,
+              "step": "Lettuce, Cheese, jalapenos, salsa, hot sauce, avocado, and greek yogurt",
+              "ingredients": [
+                {
+                  "id": 1256,
+                  "name": "greek yogurt",
+                  "localizedName": "greek yogurt",
+                  "image": "plain-yogurt.jpg"
+                },
+                {
+                  "id": 6168,
+                  "name": "hot sauce",
+                  "localizedName": "hot sauce",
+                  "image": "hot-sauce-or-tabasco.png"
+                },
+                {
+                  "id": 11979,
+                  "name": "jalapeno pepper",
+                  "localizedName": "jalapeno pepper",
+                  "image": "jalapeno-pepper.png"
+                },
+                {
+                  "id": 9037,
+                  "name": "avocado",
+                  "localizedName": "avocado",
+                  "image": "avocado.jpg"
+                },
+                {
+                  "id": 11252,
+                  "name": "lettuce",
+                  "localizedName": "lettuce",
+                  "image": "iceberg-lettuce.jpg"
+                },
+                {
+                  "id": 1041009,
+                  "name": "cheese",
+                  "localizedName": "cheese",
+                  "image": "cheddar-cheese.png"
+                },
+                {
+                  "id": 6164,
+                  "name": "salsa",
+                  "localizedName": "salsa",
+                  "image": "salsa.png"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/black-bean-and-peppers-taco-filling-635058"
+    }
+  ]
+}
