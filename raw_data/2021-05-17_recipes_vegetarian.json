@@ -1,0 +1,527 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": true,
+      "glutenFree": true,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 6,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 7,
+      "spoonacularScore": 89,
+      "healthScore": 58,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 157.28,
+      "extendedIngredients": [
+        {
+          "id": 11362,
+          "aisle": null,
+          "image": null,
+          "consistency": null,
+          "name": "potatoes",
+          "nameClean": null,
+          "original": "2 large potatoes, chopped into 1cm cubes",
+          "originalString": "2 large potatoes, chopped into 1cm cubes",
+          "originalName": "potatoes, chopped into 1cm cubes",
+          "amount": 2,
+          "unit": "large",
+          "meta": [
+            "chopped"
+          ],
+          "metaInformation": [
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "solid",
+          "name": "onion",
+          "nameClean": "onion",
+          "original": "1 large onion, chopped",
+          "originalString": "1 large onion, chopped",
+          "originalName": "onion, chopped",
+          "amount": 1,
+          "unit": "large",
+          "meta": [
+            "chopped"
+          ],
+          "metaInformation": [
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "solid",
+          "name": "garlic",
+          "nameClean": "garlic",
+          "original": "2 cloves garlic, chopped",
+          "originalString": "2 cloves garlic, chopped",
+          "originalName": "garlic, chopped",
+          "amount": 2,
+          "unit": "cloves",
+          "meta": [
+            "chopped"
+          ],
+          "metaInformation": [
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            }
+          }
+        },
+        {
+          "id": 4584,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "vegetable-oil.jpg",
+          "consistency": "liquid",
+          "name": "sunflower oil",
+          "nameClean": "sunflower oil",
+          "original": "2 Tbs sunflower oil",
+          "originalString": "2 Tbs sunflower oil",
+          "originalName": "sunflower oil",
+          "amount": 2,
+          "unit": "Tbs",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbs",
+              "unitLong": "Tbs"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbs",
+              "unitLong": "Tbs"
+            }
+          }
+        },
+        {
+          "id": 11124,
+          "aisle": "Produce",
+          "image": "sliced-carrot.png",
+          "consistency": "solid",
+          "name": "carrots",
+          "nameClean": "carrot",
+          "original": "2 large carrots, peeled and chopped",
+          "originalString": "2 large carrots, peeled and chopped",
+          "originalName": "carrots, peeled and chopped",
+          "amount": 2,
+          "unit": "large",
+          "meta": [
+            "peeled",
+            "chopped"
+          ],
+          "metaInformation": [
+            "peeled",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
+            }
+          }
+        },
+        {
+          "id": 11246,
+          "aisle": "Produce",
+          "image": "leeks.jpg",
+          "consistency": "solid",
+          "name": "leek",
+          "nameClean": "leek",
+          "original": "1 leek, washed thoroughly, sliced",
+          "originalString": "1 leek, washed thoroughly, sliced",
+          "originalName": "leek, washed thoroughly, sliced",
+          "amount": 1,
+          "unit": "",
+          "meta": [
+            "washed",
+            "sliced"
+          ],
+          "metaInformation": [
+            "washed",
+            "sliced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 11143,
+          "aisle": "Produce",
+          "image": "celery.jpg",
+          "consistency": "solid",
+          "name": "celery",
+          "nameClean": "celery",
+          "original": "2 sticks celery, sliced",
+          "originalString": "2 sticks celery, sliced",
+          "originalName": "celery, sliced",
+          "amount": 2,
+          "unit": "sticks",
+          "meta": [
+            "sliced"
+          ],
+          "metaInformation": [
+            "sliced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "sticks",
+              "unitLong": "sticks"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "sticks",
+              "unitLong": "sticks"
+            }
+          }
+        },
+        {
+          "id": 16053,
+          "aisle": "Pasta and Rice;Canned and Jarred",
+          "image": "broad-beans.jpg",
+          "consistency": "solid",
+          "name": "broad beans",
+          "nameClean": "fava beans",
+          "original": "100g broad beans",
+          "originalString": "100g broad beans",
+          "originalName": "broad beans",
+          "amount": 100,
+          "unit": "g",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 3.527,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 100,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 6615,
+          "aisle": "Canned and Jarred",
+          "image": "chicken-broth.png",
+          "consistency": "liquid",
+          "name": "vegetable stock",
+          "nameClean": "vegetable stock",
+          "original": "1 l vegetable stock",
+          "originalString": "1 l vegetable stock",
+          "originalName": "vegetable stock",
+          "amount": 1,
+          "unit": "l",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1.057,
+              "unitShort": "qt",
+              "unitLong": "quarts"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "l",
+              "unitLong": "liter"
+            }
+          }
+        },
+        {
+          "id": 11297,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "parsley.jpg",
+          "consistency": "solid",
+          "name": "parsley",
+          "nameClean": "parsley",
+          "original": "Handful fresh parsley, chopped",
+          "originalString": "Handful fresh parsley, chopped",
+          "originalName": "fresh parsley, chopped",
+          "amount": 1,
+          "unit": "Handful",
+          "meta": [
+            "fresh",
+            "chopped"
+          ],
+          "metaInformation": [
+            "fresh",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Handful",
+              "unitLong": "Handful"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Handful",
+              "unitLong": "Handful"
+            }
+          }
+        },
+        {
+          "id": 1102047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt-and-pepper.jpg",
+          "consistency": "solid",
+          "name": "salt and pepper",
+          "nameClean": "salt and pepper",
+          "original": "Salt and pepper",
+          "originalString": "Salt and pepper",
+          "originalName": "Salt and pepper",
+          "amount": 1,
+          "unit": "serving",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "serving",
+              "unitLong": "serving"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "serving",
+              "unitLong": "serving"
+            }
+          }
+        }
+      ],
+      "id": 652332,
+      "title": "Monastery soup",
+      "readyInMinutes": 45,
+      "servings": 4,
+      "sourceUrl": "https://www.foodista.com/recipe/Y67R5WMP/monastery-soup",
+      "image": "https://spoonacular.com/recipeImages/652332-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "If you have approximately <b>approximately 45 minutes</b> to spend in the kitchen, Monastery soup might be an awesome <b>gluten free, dairy free, lacto ovo vegetarian, and vegan</b> recipe to try. For <b>$1.57 per serving</b>, you get a soup that serves 4. One serving contains <b>258 calories</b>, <b>8g of protein</b>, and <b>8g of fat</b>. It can be enjoyed any time, but it is especially good for <b>Autumn</b>. It is brought to you by Foodista. A mixture of potatoes, leek, salt and pepper, and a handful of other ingredients are all it takes to make this recipe so tasty. This recipe is liked by 7 foodies and cooks. Overall, this recipe earns an <b>excellent spoonacular score of 89%</b>. If you like this recipe, take a look at these similar recipes: <a href=\"https://spoonacular.com/recipes/jamaican-soup-beef-and-pumpkin-flavor-this-soup-be-adventurous-and-try-soup-from-the-carribean-600076\">Jamaican soup – beef and pumpkin flavor this soup. Be adventurous and try soup from the carribean</a>, <a href=\"https://spoonacular.com/recipes/a-quick-and-easy-soup-miso-soup-with-soba-noodles-or-mung-bean-31003\">A Quick And Easy Soup {miso Soup With Soba Noodles Or Mung Bean</a>, and <a href=\"https://spoonacular.com/recipes/puerto-rican-chuletn-soup-aka-xmas-ham-bone-soup-574360\">Puerto Rican Chuletón Soup AKA Xmas Ham Bone Soup</a>.",
+      "cuisines": [],
+      "dishTypes": [
+        "soup"
+      ],
+      "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+      ],
+      "occasions": [
+        "fall",
+        "winter"
+      ],
+      "instructions": "1. Heat the oil in a large pan, add the potato, onion and garlic and saut, covered, for 10 minutes.\n2. Add the carrots, leek  and celery and saut for 5 minutes.\n3. Add broad beans and vegetable stock. Cover and simmer gently for 10 minutes, until the potatoes and broad beans are soft.\n4. Add parsley and salt  and pepper if needed.\nServe with crusty bread.",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "Heat the oil in a large pan, add the potato, onion and garlic and saut, covered, for 10 minutes.",
+              "ingredients": [
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 4582,
+                  "name": "cooking oil",
+                  "localizedName": "cooking oil",
+                  "image": "vegetable-oil.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                }
+              ],
+              "length": {
+                "number": 10,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 2,
+              "step": "Add the carrots, leek  and celery and saut for 5 minutes.",
+              "ingredients": [
+                {
+                  "id": 11124,
+                  "name": "carrot",
+                  "localizedName": "carrot",
+                  "image": "sliced-carrot.png"
+                },
+                {
+                  "id": 11143,
+                  "name": "celery",
+                  "localizedName": "celery",
+                  "image": "celery.jpg"
+                },
+                {
+                  "id": 11246,
+                  "name": "leek",
+                  "localizedName": "leek",
+                  "image": "leeks.jpg"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 5,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 3,
+              "step": "Add broad beans and vegetable stock. Cover and simmer gently for 10 minutes, until the potatoes and broad beans are soft.",
+              "ingredients": [
+                {
+                  "id": 6615,
+                  "name": "vegetable stock",
+                  "localizedName": "vegetable stock",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 16053,
+                  "name": "fava beans",
+                  "localizedName": "fava beans",
+                  "image": "broad-beans.jpg"
+                },
+                {
+                  "id": 11352,
+                  "name": "potato",
+                  "localizedName": "potato",
+                  "image": "potatoes-yukon-gold.png"
+                }
+              ],
+              "equipment": [],
+              "length": {
+                "number": 10,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 4,
+              "step": "Add parsley and salt  and pepper if needed.",
+              "ingredients": [
+                {
+                  "id": 11297,
+                  "name": "parsley",
+                  "localizedName": "parsley",
+                  "image": "parsley.jpg"
+                },
+                {
+                  "id": 1002030,
+                  "name": "pepper",
+                  "localizedName": "pepper",
+                  "image": "pepper.jpg"
+                },
+                {
+                  "id": 2047,
+                  "name": "salt",
+                  "localizedName": "salt",
+                  "image": "salt.jpg"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Serve with crusty bread.",
+              "ingredients": [
+                {
+                  "id": 10018029,
+                  "name": "crusty bread",
+                  "localizedName": "crusty bread",
+                  "image": "crusty-bread.jpg"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/monastery-soup-652332"
+    }
+  ]
+}
