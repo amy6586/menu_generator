@@ -3,12 +3,12 @@ all: recipes_vegan.json recipes_vegeterian.json recipes_meat.json recipes_fish.j
 jq_installed:
 	pip3 install --user jq
 
-psycopg2_installed:
-	pip3 install --user psycopg2-binary
+json2csv_installed:
+	pip3 install --user json2csv
 
 TODAY = $(shell date --date='today' '+%F')
 
-recipes_vegan.json: jq_installed
+recipes_vegan.json: jq_installed json2csv_installed
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&tags=vegan&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_vegan.json
 
 recipes_vegeterian.json:
@@ -28,6 +28,3 @@ recipes_dessert.json:
 
 recipes_random.json:
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_random.json
-
-database_dump: psycopg2_installed
-	python3 RDS-connect.py
