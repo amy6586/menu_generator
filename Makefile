@@ -3,8 +3,8 @@ all: recipes_vegan.json recipes_vegeterian.json recipes_meat.json recipes_fish.j
 jq_installed:
 	pip3 install --user jq
 
-json2csv_installed:
-	pip3 install --user json2csv
+psycopg2_Install: #install psycopg2-binary for manipulating postgres in python
+	pip3install psycopg2-binary
 
 TODAY = $(shell date --date='today' '+%F')
 
@@ -28,3 +28,6 @@ recipes_dessert.json:
 
 recipes_random.json:
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_random.json
+
+postgres_script: psycopg2_Install
+	python3 RDS-connect.py
