@@ -1,0 +1,299 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": true,
+      "dairyFree": false,
+      "veryHealthy": false,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 26,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 122,
+      "spoonacularScore": 57,
+      "healthScore": 6,
+      "creditsText": "Jen West",
+      "sourceName": "Pink When",
+      "pricePerServing": 205.62,
+      "extendedIngredients": [
+        {
+          "id": 1017,
+          "aisle": "Cheese",
+          "image": "cream-cheese.jpg",
+          "consistency": "solid",
+          "name": "cream cheese",
+          "nameClean": "cream cheese",
+          "original": "8 oz Cream Cheese",
+          "originalString": "8 oz Cream Cheese",
+          "originalName": "Cream Cheese",
+          "amount": 8,
+          "unit": "oz",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 8,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 226.796,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1022020,
+          "aisle": "Spices and Seasonings",
+          "image": "garlic-powder.png",
+          "consistency": "solid",
+          "name": "garlic powder",
+          "nameClean": "garlic powder",
+          "original": "grated ½ tsp Garlic Powder",
+          "originalString": "grated ½ tsp Garlic Powder",
+          "originalName": "grated Garlic Powder",
+          "amount": 0.5,
+          "unit": "tsp",
+          "meta": [
+            "grated"
+          ],
+          "metaInformation": [
+            "grated"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 31015,
+          "aisle": "Produce",
+          "image": "chili-peppers-green.jpg",
+          "consistency": "solid",
+          "name": "green chilis",
+          "nameClean": "green chili pepper",
+          "original": "4 oz Green Chilis (1 small can)",
+          "originalString": "4 oz Green Chilis (1 small can)",
+          "originalName": "Green Chilis (1 small can)",
+          "amount": 4,
+          "unit": "oz",
+          "meta": [
+            "green",
+            "(1 small can)"
+          ],
+          "metaInformation": [
+            "green",
+            "(1 small can)"
+          ],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 113.398,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1031009,
+          "aisle": "Cheese",
+          "image": "cheddar-cheese.png",
+          "consistency": "solid",
+          "name": "sharp cheddar cheese",
+          "nameClean": "sharp cheddar cheese",
+          "original": "4 oz Sharp Cheddar Cheese",
+          "originalString": "4 oz Sharp Cheddar Cheese",
+          "originalName": "Sharp Cheddar Cheese",
+          "amount": 4,
+          "unit": "oz",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 113.398,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        }
+      ],
+      "id": 715602,
+      "title": "Green Chili Cheddar Dip (Guest Post)",
+      "readyInMinutes": 45,
+      "servings": 2,
+      "sourceUrl": "http://www.pinkwhen.com/green-chili-cheddar-dip-guest-post/",
+      "image": "https://spoonacular.com/recipeImages/715602-556x370.png",
+      "imageType": "png",
+      "summary": "The recipe Green Chili Cheddar Dip (Guest Post) could satisfy your American craving in roughly <b>45 minutes</b>. This recipe serves 2 and costs $2.06 per serving. One serving contains <b>634 calories</b>, <b>21g of protein</b>, and <b>58g of fat</b>. Plenty of people really liked this hor d'oeuvre. It can be enjoyed any time, but it is especially good for <b>The Super Bowl</b>. A mixture of cream cheese, garlic powder, chilis, and a handful of other ingredients are all it takes to make this recipe so yummy. It is a good option if you're following a <b>gluten free, primal, and vegetarian</b> diet. 122 people were impressed by this recipe. All things considered, we decided this recipe <b>deserves a spoonacular score of 60%</b>. This score is good. Try <a href=\"https://spoonacular.com/recipes/guest-post-from-diethood-garlic-and-cheddar-drop-biscuits-515122\">Guest Post from Diethood – Garlic and Cheddar Drop Biscuits</a>, <a href=\"https://spoonacular.com/recipes/turkey-picadillo-quinoa-chili-guest-post-505017\">Turkey Picadillo Quinoa Chili {guest post}</a>, and <a href=\"https://spoonacular.com/recipes/guest-post-slow-cooker-veggie-chili-582423\">Guest Post: Slow Cooker Veggie Chili</a> for similar recipes.",
+      "cuisines": [
+        "American"
+      ],
+      "dishTypes": [
+        "condiment",
+        "dip",
+        "spread"
+      ],
+      "diets": [
+        "gluten free",
+        "lacto ovo vegetarian",
+        "primal"
+      ],
+      "occasions": [
+        "super bowl"
+      ],
+      "instructions": "In a medium bowl microwave the cream cheese for 30-60 seconds or until it is softened.Mix in the green chilis, cheddar, and garlic. Mix well.Microwave the dip for 45 seconds, stir and then an additional 45 seconds or until it is heated through.Alternately, you can spread the mixture in a baking dish and bake at 350 degrees F for 20-30 min or until heated through.Serve with tortilla chips and enjoy the game (or the food!)",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "In a medium bowl microwave the cream cheese for 30-60 seconds or until it is softened.",
+              "ingredients": [
+                {
+                  "id": 1017,
+                  "name": "cream cheese",
+                  "localizedName": "cream cheese",
+                  "image": "cream-cheese.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404762,
+                  "name": "microwave",
+                  "localizedName": "microwave",
+                  "image": "microwave.jpg"
+                },
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "step": "Mix in the green chilis, cheddar, and garlic.",
+              "ingredients": [
+                {
+                  "id": 31015,
+                  "name": "green chili pepper",
+                  "localizedName": "green chili pepper",
+                  "image": "chili-peppers-green.jpg"
+                },
+                {
+                  "id": 1009,
+                  "name": "cheddar cheese",
+                  "localizedName": "cheddar cheese",
+                  "image": "cheddar-cheese.png"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                }
+              ],
+              "equipment": []
+            },
+            {
+              "number": 3,
+              "step": "Mix well.Microwave the dip for 45 seconds, stir and then an additional 45 seconds or until it is heated through.Alternately, you can spread the mixture in a baking dish and bake at 350 degrees F for 20-30 min or until heated through.",
+              "ingredients": [
+                {
+                  "id": 0,
+                  "name": "spread",
+                  "localizedName": "spread",
+                  "image": ""
+                },
+                {
+                  "id": 0,
+                  "name": "dip",
+                  "localizedName": "dip",
+                  "image": ""
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404646,
+                  "name": "baking pan",
+                  "localizedName": "baking pan",
+                  "image": "roasting-pan.jpg"
+                },
+                {
+                  "id": 404762,
+                  "name": "microwave",
+                  "localizedName": "microwave",
+                  "image": "microwave.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
+                },
+                {
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg",
+                  "temperature": {
+                    "number": 350,
+                    "unit": "Fahrenheit"
+                  }
+                }
+              ],
+              "length": {
+                "number": 30,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 4,
+              "step": "Serve with tortilla chips and enjoy the game (or the food!)",
+              "ingredients": [
+                {
+                  "id": 19056,
+                  "name": "tortilla chips",
+                  "localizedName": "tortilla chips",
+                  "image": "tortilla-chips.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "game meat",
+                  "localizedName": "game meat",
+                  "image": "whole-chicken.jpg"
+                }
+              ],
+              "equipment": []
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/green-chili-cheddar-dip-guest-post-715602"
+    }
+  ]
+}
