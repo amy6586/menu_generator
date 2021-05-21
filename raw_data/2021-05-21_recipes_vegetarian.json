@@ -9,58 +9,120 @@
       "cheap": false,
       "veryPopular": false,
       "sustainable": false,
-      "weightWatcherSmartPoints": 3,
+      "weightWatcherSmartPoints": 27,
       "gaps": "no",
       "lowFodmap": false,
-      "aggregateLikes": 20,
-      "spoonacularScore": 33,
-      "healthScore": 3,
+      "aggregateLikes": 22,
+      "spoonacularScore": 15,
+      "healthScore": 1,
       "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
       "license": "CC BY 3.0",
       "sourceName": "Foodista",
-      "pricePerServing": 77.77,
+      "pricePerServing": 67.09,
       "extendedIngredients": [
         {
-          "id": 1001256,
-          "aisle": "Milk, Eggs, Other Dairy",
-          "image": "white-cream.png",
-          "consistency": "liquid",
-          "name": "plain greek yogurt",
-          "nameClean": "plain greek yogurt",
-          "original": "1/4-cup greek yogurt, non fat , plain",
-          "originalString": "1/4-cup greek yogurt, non fat , plain",
-          "originalName": "greek yogurt, non fat , plain",
-          "amount": 0.25,
-          "unit": "cup",
+          "id": 9003,
+          "aisle": "Produce",
+          "image": "apple.jpg",
+          "consistency": "solid",
+          "name": "apples",
+          "nameClean": "apple",
+          "original": "2 large apples, peeled and diced",
+          "originalString": "2 large apples, peeled and diced",
+          "originalName": "apples, peeled and diced",
+          "amount": 2,
+          "unit": "large",
           "meta": [
-            "plain"
+            "diced",
+            "peeled"
           ],
           "metaInformation": [
-            "plain"
+            "diced",
+            "peeled"
           ],
           "measures": {
             "us": {
-              "amount": 0.25,
-              "unitShort": "cups",
-              "unitLong": "cups"
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
             },
             "metric": {
-              "amount": 59.147,
-              "unitShort": "ml",
-              "unitLong": "milliliters"
+              "amount": 2,
+              "unitShort": "large",
+              "unitLong": "larges"
             }
           }
         },
         {
-          "id": 1124,
-          "aisle": "Milk, Eggs, Other Dairy",
-          "image": "egg-white.jpg",
+          "id": 19334,
+          "aisle": "Baking",
+          "image": "dark-brown-sugar.png",
           "consistency": "solid",
-          "name": "egg whites",
-          "nameClean": "egg whites",
-          "original": "1 egg whites",
-          "originalString": "1 egg whites",
-          "originalName": "egg whites",
+          "name": "brown sugar",
+          "nameClean": "golden brown sugar",
+          "original": "1 tablespoon brown sugar",
+          "originalString": "1 tablespoon brown sugar",
+          "originalName": "brown sugar",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 1017,
+          "aisle": "Cheese",
+          "image": "cream-cheese.jpg",
+          "consistency": "solid",
+          "name": "cream cheese",
+          "nameClean": "cream cheese",
+          "original": "4 ounces cream cheese, very cold and cubed",
+          "originalString": "4 ounces cream cheese, very cold and cubed",
+          "originalName": "cream cheese, very cold and cubed",
+          "amount": 4,
+          "unit": "ounces",
+          "meta": [
+            "very cold",
+            "cubed"
+          ],
+          "metaInformation": [
+            "very cold",
+            "cubed"
+          ],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 113.398,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1125,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "egg-yolk.jpg",
+          "consistency": "solid",
+          "name": "egg yolk",
+          "nameClean": "egg yolk",
+          "original": "1 egg yolk",
+          "originalString": "1 egg yolk",
+          "originalName": "egg yolk",
           "amount": 1,
           "unit": "",
           "meta": [],
@@ -79,75 +141,71 @@
           }
         },
         {
-          "id": 1002050,
-          "aisle": "Baking",
-          "image": "extract.png",
-          "consistency": "liquid",
-          "name": "almond extract",
-          "nameClean": "almond extract",
-          "original": "1/2-tsp almond extract",
-          "originalString": "1/2-tsp almond extract",
-          "originalName": "almond extract",
-          "amount": 0.5,
-          "unit": "tsp",
+          "id": 18338,
+          "aisle": "Refrigerated;Frozen",
+          "image": "filo-dough.png",
+          "consistency": "solid",
+          "name": "filo dough",
+          "nameClean": "filo pastry",
+          "original": "Dough",
+          "originalString": "Dough",
+          "originalName": "Dough",
+          "amount": 16,
+          "unit": "servings",
           "meta": [],
           "metaInformation": [],
           "measures": {
             "us": {
-              "amount": 0.5,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
+              "amount": 16,
+              "unitShort": "servings",
+              "unitLong": "servings"
             },
             "metric": {
-              "amount": 0.5,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
+              "amount": 16,
+              "unitShort": "servings",
+              "unitLong": "servings"
             }
           }
         },
         {
-          "id": 10020080,
+          "id": 20081,
           "aisle": "Baking",
           "image": "flour.png",
           "consistency": "solid",
-          "name": "whole-wheat pastry flour",
-          "nameClean": "pastry flour",
-          "original": "3 Tbsp. whole-wheat pastry flour",
-          "originalString": "3 Tbsp. whole-wheat pastry flour",
-          "originalName": "whole-wheat pastry flour",
-          "amount": 3,
-          "unit": "Tbsp",
-          "meta": [
-            "whole-wheat"
-          ],
-          "metaInformation": [
-            "whole-wheat"
-          ],
+          "name": "flour",
+          "nameClean": "wheat flour",
+          "original": "cups flour",
+          "originalString": "cups flour",
+          "originalName": "flour",
+          "amount": 1,
+          "unit": "cups",
+          "meta": [],
+          "metaInformation": [],
           "measures": {
             "us": {
-              "amount": 3,
-              "unitShort": "Tbsps",
-              "unitLong": "Tbsps"
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
             },
             "metric": {
-              "amount": 3,
-              "unitShort": "Tbsps",
-              "unitLong": "Tbsps"
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
             }
           }
         },
         {
-          "id": 18372,
-          "aisle": "Baking",
-          "image": "white-powder.jpg",
+          "id": 2001,
+          "aisle": "Spices and Seasonings",
+          "image": "allspice-ground.jpg",
           "consistency": "solid",
-          "name": "baking soda",
-          "nameClean": "baking soda",
-          "original": "1/4-tsp baking soda",
-          "originalString": "1/4-tsp baking soda",
-          "originalName": "baking soda",
+          "name": "ground allspice",
+          "nameClean": "allspice",
+          "original": "1/4 teaspoon ground allspice",
+          "originalString": "1/4 teaspoon ground allspice",
+          "originalName": "ground allspice",
           "amount": 0.25,
-          "unit": "tsp",
+          "unit": "teaspoon",
           "meta": [],
           "metaInformation": [],
           "measures": {
@@ -160,6 +218,195 @@
               "amount": 0.25,
               "unitShort": "tsps",
               "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2006,
+          "aisle": "Spices and Seasonings",
+          "image": "cardamom.jpg",
+          "consistency": "solid",
+          "name": "ground cardamom",
+          "nameClean": "cardamom",
+          "original": "1/8 teaspoon ground cardamom",
+          "originalString": "1/8 teaspoon ground cardamom",
+          "originalName": "ground cardamom",
+          "amount": 0.125,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.125,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.125,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1012010,
+          "aisle": "Spices and Seasonings",
+          "image": "cinnamon.jpg",
+          "consistency": "solid",
+          "name": "ground cinnamon",
+          "nameClean": "ground cinnamon",
+          "original": "1/2 teaspoon ground cinnamon",
+          "originalString": "1/2 teaspoon ground cinnamon",
+          "originalName": "ground cinnamon",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2021,
+          "aisle": "Spices and Seasonings",
+          "image": "ginger.png",
+          "consistency": "solid",
+          "name": "ground ginger",
+          "nameClean": "ginger powder",
+          "original": "1/2 teaspoon ground ginger",
+          "originalString": "1/2 teaspoon ground ginger",
+          "originalName": "ground ginger",
+          "amount": 0.5,
+          "unit": "teaspoon",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 9152,
+          "aisle": "Produce",
+          "image": "lemon-juice.jpg",
+          "consistency": "liquid",
+          "name": "juice of lemon",
+          "nameClean": "lemon juice",
+          "original": "Juice of 1/2 a lemon",
+          "originalString": "Juice of 1/2 a lemon",
+          "originalName": "Juice a lemon",
+          "amount": 0.5,
+          "unit": "",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 19911,
+          "aisle": "Cereal",
+          "image": "maple-syrup.png",
+          "consistency": "liquid",
+          "name": "maple syrup",
+          "nameClean": "maple syrup",
+          "original": "2 tablespoons maple syrup",
+          "originalString": "2 tablespoons maple syrup",
+          "originalName": "maple syrup",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 1077,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "milk.png",
+          "consistency": "liquid",
+          "name": "milk",
+          "nameClean": "milk",
+          "original": "2 tablespoons milk",
+          "originalString": "2 tablespoons milk",
+          "originalName": "milk",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 19336,
+          "aisle": "Baking",
+          "image": "powdered-sugar.jpg",
+          "consistency": "solid",
+          "name": "powdered sugar",
+          "nameClean": "powdered sugar",
+          "original": "1/8 cup powdered sugar",
+          "originalString": "1/8 cup powdered sugar",
+          "originalName": "powdered sugar",
+          "amount": 0.125,
+          "unit": "cup",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 0.125,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 29.574,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
             }
           }
         },
@@ -170,107 +417,47 @@
           "consistency": "solid",
           "name": "sugar",
           "nameClean": "sugar",
-          "original": "1/4 tsp sugar",
-          "originalString": "1/4 tsp sugar",
-          "originalName": "sugar",
-          "amount": 0.25,
-          "unit": "tsp",
+          "original": "7 c.s sugar",
+          "originalString": "7 c.s sugar",
+          "originalName": "s sugar",
+          "amount": 7,
+          "unit": "c",
           "meta": [],
           "metaInformation": [],
           "measures": {
             "us": {
-              "amount": 0.25,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
-            },
-            "metric": {
-              "amount": 0.25,
-              "unitShort": "tsps",
-              "unitLong": "teaspoons"
-            }
-          }
-        },
-        {
-          "id": 2047,
-          "aisle": "Spices and Seasonings",
-          "image": "salt.jpg",
-          "consistency": "solid",
-          "name": "salt",
-          "nameClean": "salt",
-          "original": "Dash of Salt",
-          "originalString": "Dash of Salt",
-          "originalName": "Salt",
-          "amount": 1,
-          "unit": "Dash",
-          "meta": [],
-          "metaInformation": [],
-          "measures": {
-            "us": {
-              "amount": 1,
-              "unitShort": "Dash",
-              "unitLong": "Dash"
-            },
-            "metric": {
-              "amount": 1,
-              "unitShort": "Dash",
-              "unitLong": "Dash"
-            }
-          }
-        },
-        {
-          "id": 9070,
-          "aisle": "Produce",
-          "image": "cherries.jpg",
-          "consistency": "solid",
-          "name": "cherries",
-          "nameClean": "cherries",
-          "original": "1/3 cup whole cherries, pitted, cut in half or in quarters depending on size of cherries",
-          "originalString": "1/3 cup whole cherries, pitted, cut in half or in quarters depending on size of cherries",
-          "originalName": "whole cherries, pitted, cut in half or in quarters depending on size of cherries",
-          "amount": 0.3333333333333333,
-          "unit": "cup",
-          "meta": [
-            "whole",
-            "pitted",
-            "cut in half or in quarters depending on size of cherries"
-          ],
-          "metaInformation": [
-            "whole",
-            "pitted",
-            "cut in half or in quarters depending on size of cherries"
-          ],
-          "measures": {
-            "us": {
-              "amount": 0.333,
+              "amount": 7,
               "unitShort": "cups",
               "unitLong": "cups"
             },
             "metric": {
-              "amount": 78.863,
-              "unitShort": "ml",
-              "unitLong": "milliliters"
+              "amount": 1.656,
+              "unitShort": "l",
+              "unitLong": "liters"
             }
           }
         },
         {
-          "id": 9070,
-          "aisle": "Produce",
-          "image": "cherries.jpg",
+          "id": 1145,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
           "consistency": "solid",
-          "name": "cherries",
-          "nameClean": "cherries",
-          "original": "1/2 cups cherries, pitted, cut in half",
-          "originalString": "1/2 cups cherries, pitted, cut in half",
-          "originalName": "cherries, pitted, cut in half",
+          "name": "unsalted butter",
+          "nameClean": "unsalted butter",
+          "original": "1/2 cup unsalted butter, very cold and cubed",
+          "originalString": "1/2 cup unsalted butter, very cold and cubed",
+          "originalName": "unsalted butter, very cold and cubed",
           "amount": 0.5,
-          "unit": "cups",
+          "unit": "cup",
           "meta": [
-            "pitted",
-            "cut in half"
+            "unsalted",
+            "very cold",
+            "cubed"
           ],
           "metaInformation": [
-            "pitted",
-            "cut in half"
+            "unsalted",
+            "very cold",
+            "cubed"
           ],
           "measures": {
             "us": {
@@ -286,86 +473,81 @@
           }
         },
         {
-          "id": 19113,
-          "aisle": "Cereal",
-          "image": "maple-syrup-or-agave-nectar.jpg",
-          "consistency": "liquid",
-          "name": "pancake syrup",
-          "nameClean": "table syrup",
-          "original": "1/4 cup pancake syrup (I used Mrs. Butterworths sugar free syrup)",
-          "originalString": "1/4 cup pancake syrup (I used Mrs. Butterworths sugar free syrup)",
-          "originalName": "pancake syrup (I used Mrs. Butterworths sugar free syrup)",
-          "amount": 0.25,
-          "unit": "cup",
+          "id": null,
+          "aisle": "?",
+          "image": null,
+          "consistency": null,
+          "name": "frangelico",
+          "nameClean": null,
+          "original": "1 teaspoon Frangelico (or vanilla or rum)",
+          "originalString": "1 teaspoon Frangelico (or vanilla or rum)",
+          "originalName": "Frangelico (or vanilla or rum)",
+          "amount": 1,
+          "unit": "teaspoon",
           "meta": [
-            "sugar free",
-            "(I used Mrs. Butterworths syrup)"
+            "(or vanilla or rum)"
           ],
           "metaInformation": [
-            "sugar free",
-            "(I used Mrs. Butterworths syrup)"
+            "(or vanilla or rum)"
           ],
           "measures": {
             "us": {
-              "amount": 0.25,
-              "unitShort": "cups",
-              "unitLong": "cups"
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
             },
             "metric": {
-              "amount": 59.147,
-              "unitShort": "ml",
-              "unitLong": "milliliters"
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
             }
           }
         }
       ],
-      "id": 637776,
-      "title": "Cherry Pancakes for One",
+      "id": 632552,
+      "title": "Apple Hand Pies",
       "readyInMinutes": 45,
-      "servings": 3,
-      "sourceUrl": "https://www.foodista.com/recipe/DC8X48GK/cherry-pancakes-for-one",
-      "image": "https://spoonacular.com/recipeImages/637776-556x370.jpg",
+      "servings": 16,
+      "sourceUrl": "http://www.foodista.com/recipe/TQVW7MTF/apple-hand-pies",
+      "image": "https://spoonacular.com/recipeImages/632552-556x370.jpg",
       "imageType": "jpg",
-      "summary": "Cherry Pancakes for One requires roughly <b>roughly 45 minutes</b> from start to finish. This breakfast has <b>144 calories</b>, <b>4g of protein</b>, and <b>1g of fat</b> per serving. For <b>78 cents per serving</b>, this recipe <b>covers 4%</b> of your daily requirements of vitamins and minerals. This recipe serves 3. 20 people were impressed by this recipe. This recipe from Foodista requires greek yogurt, pancake syrup, almond extract, and cherries. It is a good option if you're following a <b>lacto ovo vegetarian</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 30%</b>. This score is rather bad. Similar recipes are <a href=\"https://spoonacular.com/recipes/cherry-filled-pancakes-53014\">Cherry-filled Pancakes</a>, <a href=\"https://spoonacular.com/recipes/chocolate-cherry-pancakes-629575\">Chocolate Cherry Pancakes</a>, and <a href=\"https://spoonacular.com/recipes/cherry-almond-quinoa-pancakes-470947\">Cherry Almond Quinoa Pancakes</a>.",
+      "summary": "One serving contains <b>530 calories</b>, <b>3g of protein</b>, and <b>10g of fat</b>. For <b>65 cents per serving</b>, this recipe <b>covers 4%</b> of your daily requirements of vitamins and minerals. A couple people made this recipe, and 21 would say it hit the spot. A mixture of frangelico, maple syrup, butter, and a handful of other ingredients are all it takes to make this recipe so delicious. It is a good option if you're following a <b>vegetarian</b> diet. From preparation to the plate, this recipe takes roughly <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 16%</b>. This score is rather bad. Try <a href=\"https://spoonacular.com/recipes/apple-hand-pies-706227\">Apple Hand Pies</a>, <a href=\"https://spoonacular.com/recipes/apple-hand-pies-473724\">Apple Hand Pies</a>, and <a href=\"https://spoonacular.com/recipes/apple-hand-pies-617355\">Apple Hand Pies</a> for similar recipes.",
       "cuisines": [],
       "dishTypes": [
-        "morning meal",
-        "brunch",
-        "breakfast"
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
       ],
       "diets": [
         "lacto ovo vegetarian"
       ],
       "occasions": [],
-      "instructions": "Mix greek yogurt, egg white & almond extract into a small bowl\nIn a separate bowl combine flour, baking soda, sugar, & salt\nCombine and whisk till evenly mixed\nFold in 1/3 cup cherries\nPlace 1/4-cup batter onto non-stick skillet and cook till bubbles start appearing through the top of the pancake and then flip. NOTE: Cook on medium heat and I flattened out my batter with the spatula to cook more evenly.\nAbout 1-2 minutes on each side\nFor sauce:\nIn a sauce pan add 1/2 cup whole pitted cherries and maple syrup. Set temperature on medium, and when it starts to simmer, set the temperature to low and cook until thick and bubbly. Its done about the same time your pancakes are.",
+      "instructions": "<ol><li>Start dough by whisking dry ingredients in a medium sized bowl. Add butter and incorporate with a pastry blender until coarse crumbs develop. Add cream cheese and incorporate well.</li><li>Plop in egg yolk and stir with a fork until dough comes together into a ball.</li><li>Turn dough out onto a floured surface and roll into a uniform ball. Slightly press flat with the palm of your hand and wrap in plastic wrap. Chill at least one hour.</li><li>Once dough has chilled, set it on a floured surface and roll it out to about 10 x 12. Cut into sixteen even squares. Lay the dough squares on a parchment paper covered baking sheet and set in the freezer to chill.</li><li>In a separate bowl, toss the apples with the lemon juice, maple syrup, spices and brown sugar. Make sure to cover all of the apple pieces.</li><li>Take dough out of freezer. Drop about 1 tablespoon of filling into the center of each piece of dough. Fold one pointed edge towards its opposite corner to form a triangle.  Crimp edges with a fork along the seams. Repeat with all of the dough.</li><li>Brush a little milk over the top of each turnover and sprinkle with extra sugar if desired. (Pop back into the freezer for a quick chill if the dough is soft.). Bake in a preheated oven at 400 degrees for 20 minutes or until browned.</li></ol>",
       "analyzedInstructions": [
         {
           "name": "",
           "steps": [
             {
               "number": 1,
-              "step": "Mix greek yogurt, egg white & almond extract into a small bowl",
+              "step": "Start dough by whisking dry ingredients in a medium sized bowl.",
               "ingredients": [
                 {
-                  "id": 1002050,
-                  "name": "almond extract",
-                  "localizedName": "almond extract",
-                  "image": "extract.png"
-                },
-                {
-                  "id": 1256,
-                  "name": "greek yogurt",
-                  "localizedName": "greek yogurt",
-                  "image": "plain-yogurt.jpg"
-                },
-                {
-                  "id": 1124,
-                  "name": "egg whites",
-                  "localizedName": "egg whites",
-                  "image": "egg-white.jpg"
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
                 }
               ],
               "equipment": [
+                {
+                  "id": 404661,
+                  "name": "whisk",
+                  "localizedName": "whisk",
+                  "image": "whisk.png"
+                },
                 {
                   "id": 404783,
                   "name": "bowl",
@@ -376,34 +558,132 @@
             },
             {
               "number": 2,
-              "step": "In a separate bowl combine flour, baking soda, sugar, & salt",
+              "step": "Add butter and incorporate with a pastry blender until coarse crumbs develop.",
               "ingredients": [
                 {
-                  "id": 18372,
-                  "name": "baking soda",
-                  "localizedName": "baking soda",
-                  "image": "white-powder.jpg"
-                },
-                {
-                  "id": 20081,
-                  "name": "all purpose flour",
-                  "localizedName": "all purpose flour",
-                  "image": "flour.png"
-                },
-                {
-                  "id": 19335,
-                  "name": "sugar",
-                  "localizedName": "sugar",
-                  "image": "sugar-in-bowl.png"
-                },
-                {
-                  "id": 2047,
-                  "name": "salt",
-                  "localizedName": "salt",
-                  "image": "salt.jpg"
+                  "id": 1001,
+                  "name": "butter",
+                  "localizedName": "butter",
+                  "image": "butter-sliced.jpg"
                 }
               ],
               "equipment": [
+                {
+                  "id": 404726,
+                  "name": "blender",
+                  "localizedName": "blender",
+                  "image": "blender.png"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "step": "Add cream cheese and incorporate well.Plop in egg yolk and stir with a fork until dough comes together into a ball.Turn dough out onto a floured surface and roll into a uniform ball. Slightly press flat with the palm of your hand and wrap in plastic wrap. Chill at least one hour.Once dough has chilled, set it on a floured surface and roll it out to about 10 x 1",
+              "ingredients": [
+                {
+                  "id": 1017,
+                  "name": "cream cheese",
+                  "localizedName": "cream cheese",
+                  "image": "cream-cheese.jpg"
+                },
+                {
+                  "id": 1125,
+                  "name": "egg yolk",
+                  "localizedName": "egg yolk",
+                  "image": "egg-yolk.jpg"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                },
+                {
+                  "id": 0,
+                  "name": "roll",
+                  "localizedName": "roll",
+                  "image": "dinner-yeast-rolls.jpg"
+                },
+                {
+                  "id": 10018364,
+                  "name": "wrap",
+                  "localizedName": "wrap",
+                  "image": "flour-tortilla.jpg"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404730,
+                  "name": "plastic wrap",
+                  "localizedName": "plastic wrap",
+                  "image": "plastic-wrap.jpg"
+                }
+              ],
+              "length": {
+                "number": 60,
+                "unit": "minutes"
+              }
+            },
+            {
+              "number": 4,
+              "step": "Cut into sixteen even squares.",
+              "ingredients": [],
+              "equipment": []
+            },
+            {
+              "number": 5,
+              "step": "Lay the dough squares on a parchment paper covered baking sheet and set in the freezer to chill.In a separate bowl, toss the apples with the lemon juice, maple syrup, spices and brown sugar. Make sure to cover all of the apple pieces.Take dough out of freezer. Drop about 1 tablespoon of filling into the center of each piece of dough. Fold one pointed edge towards its opposite corner to form a triangle.  Crimp edges with a fork along the seams. Repeat with all of the dough.",
+              "ingredients": [
+                {
+                  "id": 19334,
+                  "name": "brown sugar",
+                  "localizedName": "brown sugar",
+                  "image": "dark-brown-sugar.png"
+                },
+                {
+                  "id": 9152,
+                  "name": "lemon juice",
+                  "localizedName": "lemon juice",
+                  "image": "lemon-juice.jpg"
+                },
+                {
+                  "id": 19911,
+                  "name": "maple syrup",
+                  "localizedName": "maple syrup",
+                  "image": "maple-syrup.png"
+                },
+                {
+                  "id": 9003,
+                  "name": "apple",
+                  "localizedName": "apple",
+                  "image": "apple.jpg"
+                },
+                {
+                  "id": 2035,
+                  "name": "spices",
+                  "localizedName": "spices",
+                  "image": "spices.png"
+                },
+                {
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404770,
+                  "name": "baking paper",
+                  "localizedName": "baking paper",
+                  "image": "baking-paper.jpg"
+                },
+                {
+                  "id": 404727,
+                  "name": "baking sheet",
+                  "localizedName": "baking sheet",
+                  "image": "baking-sheet.jpg"
+                },
                 {
                   "id": 404783,
                   "name": "bowl",
@@ -413,115 +693,58 @@
               ]
             },
             {
-              "number": 3,
-              "step": "Combine and whisk till evenly mixed",
-              "ingredients": [],
-              "equipment": [
-                {
-                  "id": 404661,
-                  "name": "whisk",
-                  "localizedName": "whisk",
-                  "image": "whisk.png"
-                }
-              ]
-            },
-            {
-              "number": 4,
-              "step": "Fold in 1/3 cup cherries",
+              "number": 6,
+              "step": "Brush a little milk over the top of each turnover and sprinkle with extra sugar if desired. (Pop back into the freezer for a quick chill if the dough is soft.).",
               "ingredients": [
                 {
-                  "id": 9070,
-                  "name": "cherries",
-                  "localizedName": "cherries",
-                  "image": "cherries.jpg"
+                  "id": 0,
+                  "name": "dough",
+                  "localizedName": "dough",
+                  "image": "pizza-dough"
+                },
+                {
+                  "id": 19335,
+                  "name": "sugar",
+                  "localizedName": "sugar",
+                  "image": "sugar-in-bowl.png"
+                },
+                {
+                  "id": 1077,
+                  "name": "milk",
+                  "localizedName": "milk",
+                  "image": "milk.png"
+                },
+                {
+                  "id": 0,
+                  "name": "pop",
+                  "localizedName": "pop",
+                  "image": ""
                 }
               ],
               "equipment": []
             },
             {
-              "number": 5,
-              "step": "Place 1/4-cup batter onto non-stick skillet and cook till bubbles start appearing through the top of the pancake and then flip. NOTE: Cook on medium heat and I flattened out my batter with the spatula to cook more evenly.",
-              "ingredients": [
-                {
-                  "id": 0,
-                  "name": "pancakes",
-                  "localizedName": "pancakes",
-                  "image": ""
-                }
-              ],
+              "number": 7,
+              "step": "Bake in a preheated oven at 400 degrees for 20 minutes or until browned.",
+              "ingredients": [],
               "equipment": [
                 {
-                  "id": 404645,
-                  "name": "frying pan",
-                  "localizedName": "frying pan",
-                  "image": "pan.png"
-                },
-                {
-                  "id": 404642,
-                  "name": "spatula",
-                  "localizedName": "spatula",
-                  "image": "spatula-or-turner.jpg"
+                  "id": 404784,
+                  "name": "oven",
+                  "localizedName": "oven",
+                  "image": "oven.jpg"
                 }
-              ]
-            },
-            {
-              "number": 6,
-              "step": "About 1-2 minutes on each side",
-              "ingredients": [],
-              "equipment": [],
+              ],
               "length": {
-                "number": 2,
+                "number": 20,
                 "unit": "minutes"
               }
-            }
-          ]
-        },
-        {
-          "name": "For sauce",
-          "steps": [
-            {
-              "number": 1,
-              "step": "In a sauce pan add 1/2 cup whole pitted cherries and maple syrup. Set temperature on medium, and when it starts to simmer, set the temperature to low and cook until thick and bubbly. Its done about the same time your pancakes are.",
-              "ingredients": [
-                {
-                  "id": 19911,
-                  "name": "maple syrup",
-                  "localizedName": "maple syrup",
-                  "image": "maple-syrup.png"
-                },
-                {
-                  "id": 9070,
-                  "name": "cherries",
-                  "localizedName": "cherries",
-                  "image": "cherries.jpg"
-                },
-                {
-                  "id": 0,
-                  "name": "pancakes",
-                  "localizedName": "pancakes",
-                  "image": ""
-                },
-                {
-                  "id": 0,
-                  "name": "sauce",
-                  "localizedName": "sauce",
-                  "image": ""
-                }
-              ],
-              "equipment": [
-                {
-                  "id": 404669,
-                  "name": "sauce pan",
-                  "localizedName": "sauce pan",
-                  "image": "sauce-pan.jpg"
-                }
-              ]
             }
           ]
         }
       ],
       "originalId": null,
-      "spoonacularSourceUrl": "https://spoonacular.com/cherry-pancakes-for-one-637776"
+      "spoonacularSourceUrl": "https://spoonacular.com/apple-hand-pies-632552"
     }
   ]
 }
