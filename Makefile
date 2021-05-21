@@ -8,7 +8,7 @@ psycopg2_Install: #install psycopg2-binary for manipulating postgres in python
 
 TODAY = $(shell date --date='today' '+%F')
 
-recipes_vegan.json: jq_installed json2csv_installed
+recipes_vegan.json: jq_installed
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&tags=vegan&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_vegan.json
 
 recipes_vegeterian.json:
