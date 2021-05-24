@@ -1,0 +1,451 @@
+{
+  "recipes": [
+    {
+      "vegetarian": true,
+      "vegan": false,
+      "glutenFree": false,
+      "dairyFree": true,
+      "veryHealthy": true,
+      "cheap": false,
+      "veryPopular": false,
+      "sustainable": false,
+      "weightWatcherSmartPoints": 10,
+      "gaps": "no",
+      "lowFodmap": false,
+      "aggregateLikes": 47,
+      "spoonacularScore": 97,
+      "healthScore": 81,
+      "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+      "license": "CC BY 3.0",
+      "sourceName": "Foodista",
+      "pricePerServing": 394.03,
+      "extendedIngredients": [
+        {
+          "id": 11011,
+          "aisle": "Produce",
+          "image": "asparagus.png",
+          "consistency": "solid",
+          "name": "asparagus",
+          "nameClean": "asparagus",
+          "original": "1 bunch asparagus, cut into ¼ pieces",
+          "originalString": "1 bunch asparagus, cut into ¼ pieces",
+          "originalName": "asparagus, cut into ¼ pieces",
+          "amount": 1,
+          "unit": "bunch",
+          "meta": [
+            "cut into ¼ pieces"
+          ],
+          "metaInformation": [
+            "cut into ¼ pieces"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "bunch",
+              "unitLong": "bunch"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "bunch",
+              "unitLong": "bunch"
+            }
+          }
+        },
+        {
+          "id": 6172,
+          "aisle": "Canned and Jarred",
+          "image": "chicken-broth.png",
+          "consistency": "liquid",
+          "name": "chicken stock",
+          "nameClean": "chicken stock",
+          "original": "2 cups chicken stock",
+          "originalString": "2 cups chicken stock",
+          "originalName": "chicken stock",
+          "amount": 2,
+          "unit": "cups",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 473.176,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 10011268,
+          "aisle": "Produce;Ethnic Foods",
+          "image": "dried-porcini-mushrooms.png",
+          "consistency": "solid",
+          "name": "dried porcini mushrooms",
+          "nameClean": "dried porcini mushrooms",
+          "original": "1 ounce dried porcini mushrooms",
+          "originalString": "1 ounce dried porcini mushrooms",
+          "originalName": "dried porcini mushrooms",
+          "amount": 1,
+          "unit": "ounce",
+          "meta": [
+            "dried"
+          ],
+          "metaInformation": [
+            "dried"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "oz",
+              "unitLong": "ounce"
+            },
+            "metric": {
+              "amount": 28.35,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 10020005,
+          "aisle": "Pasta and Rice;Ethnic Foods;Health Foods",
+          "image": "farro-or-spelt.jpg",
+          "consistency": "solid",
+          "name": "farro",
+          "nameClean": "farro",
+          "original": "8 ounces farro",
+          "originalString": "8 ounces farro",
+          "originalName": "farro",
+          "amount": 8,
+          "unit": "ounces",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 8,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 226.796,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 2049,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "thyme.jpg",
+          "consistency": "solid",
+          "name": "fresh thyme",
+          "nameClean": "thyme",
+          "original": "1 tablespoon chopped fresh thyme",
+          "originalString": "1 tablespoon chopped fresh thyme",
+          "originalName": "chopped fresh thyme",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [
+            "fresh",
+            "chopped"
+          ],
+          "metaInformation": [
+            "fresh",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "solid",
+          "name": "garlic",
+          "nameClean": "garlic",
+          "original": "2 cloves of garlic, finely chopped",
+          "originalString": "2 cloves of garlic, finely chopped",
+          "originalName": "garlic, finely chopped",
+          "amount": 2,
+          "unit": "cloves",
+          "meta": [
+            "finely chopped"
+          ],
+          "metaInformation": [
+            "finely chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "cloves",
+              "unitLong": "cloves"
+            }
+          }
+        },
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "liquid",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "2 tablespoons olive oil",
+          "originalString": "2 tablespoons olive oil",
+          "originalName": "olive oil",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "solid",
+          "name": "onion",
+          "nameClean": "onion",
+          "original": "1 medium onion, chopped",
+          "originalString": "1 medium onion, chopped",
+          "originalName": "onion, chopped",
+          "amount": 1,
+          "unit": "medium",
+          "meta": [
+            "chopped"
+          ],
+          "metaInformation": [
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "medium",
+              "unitLong": "medium"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "medium",
+              "unitLong": "medium"
+            }
+          }
+        },
+        {
+          "id": 1102047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt-and-pepper.jpg",
+          "consistency": "solid",
+          "name": "salt and pepper",
+          "nameClean": "salt and pepper",
+          "original": "Salt and pepper, to taste",
+          "originalString": "Salt and pepper, to taste",
+          "originalName": "Salt and pepper, to taste",
+          "amount": 4,
+          "unit": "servings",
+          "meta": [
+            "to taste"
+          ],
+          "metaInformation": [
+            "to taste"
+          ],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            },
+            "metric": {
+              "amount": 4,
+              "unitShort": "servings",
+              "unitLong": "servings"
+            }
+          }
+        },
+        {
+          "id": 1012068,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "dark-sauce.jpg",
+          "consistency": "liquid",
+          "name": "sherry vinegar",
+          "nameClean": "sherry vinegar",
+          "original": "3 tablespoons sherry vinegar",
+          "originalString": "3 tablespoons sherry vinegar",
+          "originalName": "sherry vinegar",
+          "amount": 3,
+          "unit": "tablespoons",
+          "meta": [],
+          "metaInformation": [],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        }
+      ],
+      "id": 642605,
+      "title": "Farro With Mushrooms and Asparagus",
+      "readyInMinutes": 75,
+      "servings": 4,
+      "sourceUrl": "http://www.foodista.com/recipe/DMV5G8FD/farro-with-mushrooms-and-asparagus",
+      "image": "https://spoonacular.com/recipeImages/642605-556x370.jpg",
+      "imageType": "jpg",
+      "summary": "Need a <b>dairy free and vegetarian side dish</b>? Farro With Mushrooms and Asparagus could be an excellent recipe to try. This recipe makes 4 servings with <b>365 calories</b>, <b>12g of protein</b>, and <b>9g of fat</b> each. For <b>$3.94 per serving</b>, this recipe <b>covers 23%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes around <b>1 hour and 15 minutes</b>. This recipe is liked by 47 foodies and cooks. If you have onion, chicken stock, garlic, and a few other ingredients on hand, you can make it. All things considered, we decided this recipe <b>deserves a spoonacular score of 98%</b>. This score is amazing. Similar recipes include <a href=\"https://spoonacular.com/recipes/farro-risotto-with-wild-mushrooms-and-asparagus-495316\">Farro Risotto with Wild Mushrooms and Asparagus</a>, <a href=\"https://spoonacular.com/recipes/farro-with-asparagus-hazelnuts-and-kale-topped-with-roasted-mushrooms-298005\">Farro with Asparagus, Hazelnuts and Kale Topped with Roasted Mushrooms</a>, and <a href=\"https://spoonacular.com/recipes/farro-and-porcini-mushrooms-farro-con-funghi-40485\">Farro And Porcini Mushrooms (farro Con Funghi)</a>.",
+      "cuisines": [],
+      "dishTypes": [
+        "side dish"
+      ],
+      "diets": [
+        "dairy free",
+        "lacto ovo vegetarian"
+      ],
+      "occasions": [],
+      "instructions": "<ol><li>In a small bowl, cover dried mushrooms with warm water.  Soak for 25 minutes, or until softened.</li><li>Drain the mushrooms, and discard the soaking water.  Chop finely.</li><li>Bring a large pot of water to a boil.</li><li>Add farro, and cook for 10 minutes, stirring occasionally.  Drain and reserve.</li><li>In a large skillet, over medium heat, heat the olive oil, and add onion, garlic, thyme, and mushrooms.</li><li>Cook, stirring occasionally, for 5 minutes or until onions are tender.</li><li>Stir in 2 tablespoons of sherry vinegar, and continue cooking for 1 minute.</li><li>Add chicken stock, and bring it to a boil.</li><li>Stir in farro, and return to a boil.</li><li>Lower the heat to a simmer, and cover with a tight fitting lid.  Cook for 10 minutes.</li><li>Add asparagus, and cook, covered, for an additional 10 minutes.</li><li>Season with 1 tablespoon sherry vinegar, salt and pepper.</li></ol>",
+      "analyzedInstructions": [
+        {
+          "name": "",
+          "steps": [
+            {
+              "number": 1,
+              "step": "In a small bowl, cover dried mushrooms with warm water.  Soak for 25 minutes, or until softened.\nDrain the mushrooms, and discard the soaking water.  Chop finely.Bring a large pot of water to a boil.\nAdd farro, and cook for 10 minutes, stirring occasionally.  \nDrain and reserve.In a large skillet, over medium heat, heat the olive oil, and add onion, garlic, thyme, and mushrooms.Cook, stirring occasionally, for 5 minutes or until onions are tender.Stir in 2 tablespoons of sherry vinegar, and continue cooking for 1 minute.\nAdd chicken stock, and bring it to a boil.Stir in farro, and return to a boil.Lower the heat to a simmer, and cover with a tight fitting lid.  Cook for 10 minutes.\nAdd asparagus, and cook, covered, for an additional 10 minutes.Season with 1 tablespoon sherry vinegar, salt and pepper.",
+              "ingredients": [
+                {
+                  "id": 0,
+                  "name": "dried mushrooms",
+                  "localizedName": "dried mushrooms",
+                  "image": "mushrooms.png"
+                },
+                {
+                  "id": 1102047,
+                  "name": "salt and pepper",
+                  "localizedName": "salt and pepper",
+                  "image": "salt-and-pepper.jpg"
+                },
+                {
+                  "id": 1012068,
+                  "name": "sherry vinegar",
+                  "localizedName": "sherry vinegar",
+                  "image": "dark-sauce.jpg"
+                },
+                {
+                  "id": 6172,
+                  "name": "chicken stock",
+                  "localizedName": "chicken stock",
+                  "image": "chicken-broth.png"
+                },
+                {
+                  "id": 11011,
+                  "name": "asparagus",
+                  "localizedName": "asparagus",
+                  "image": "asparagus.png"
+                },
+                {
+                  "id": 11260,
+                  "name": "mushrooms",
+                  "localizedName": "mushrooms",
+                  "image": "mushrooms.png"
+                },
+                {
+                  "id": 4053,
+                  "name": "olive oil",
+                  "localizedName": "olive oil",
+                  "image": "olive-oil.jpg"
+                },
+                {
+                  "id": 11215,
+                  "name": "garlic",
+                  "localizedName": "garlic",
+                  "image": "garlic.png"
+                },
+                {
+                  "id": 11282,
+                  "name": "onion",
+                  "localizedName": "onion",
+                  "image": "brown-onion.png"
+                },
+                {
+                  "id": 10020005,
+                  "name": "farro",
+                  "localizedName": "farro",
+                  "image": "farro-or-spelt.jpg"
+                },
+                {
+                  "id": 2049,
+                  "name": "thyme",
+                  "localizedName": "thyme",
+                  "image": "thyme.jpg"
+                },
+                {
+                  "id": 14412,
+                  "name": "water",
+                  "localizedName": "water",
+                  "image": "water.png"
+                }
+              ],
+              "equipment": [
+                {
+                  "id": 404645,
+                  "name": "frying pan",
+                  "localizedName": "frying pan",
+                  "image": "pan.png"
+                },
+                {
+                  "id": 404783,
+                  "name": "bowl",
+                  "localizedName": "bowl",
+                  "image": "bowl.jpg"
+                },
+                {
+                  "id": 404752,
+                  "name": "pot",
+                  "localizedName": "pot",
+                  "image": "stock-pot.jpg"
+                }
+              ],
+              "length": {
+                "number": 61,
+                "unit": "minutes"
+              }
+            }
+          ]
+        }
+      ],
+      "originalId": null,
+      "spoonacularSourceUrl": "https://spoonacular.com/farro-with-mushrooms-and-asparagus-642605"
+    }
+  ]
+}
