@@ -1,7 +1,10 @@
 # Automatically Runs Great Expectation Checkpoints on every push to a PR, and provides links to hosted Data Docs if there an error.
-name: PR Push
-on: pull_request
-workflow_dispatch:
+name: Great_Expectations
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   see-payload:
