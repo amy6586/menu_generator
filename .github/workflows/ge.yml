@@ -1,71 +1,20 @@
-# Automatically Runs Great Expectation Checkpoints on every push to a PR, and provides links to hosted Data Docs if there an error.
-name: Great_Expectations
+name: 'Great-Expectations-Data'
+
 on:
   workflow_dispatch:
   push:
     branches:
       - master
-
-jobs:
-  see-payload:
-    runs-on: ubuntu-latest
-    steps:
-    - name: see payload
-      run: |
-        echo "$PAYLOAD"
-      env:
-        PAYLOAD: ${{ toJSON(github.event) }}
-    - name: store payload
-      uses: actions/upload-artifact@v2
-      with:
-        name: payload.json
-        path: ${{ github.event_path }}
- 
-  test-action:
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false    
-      matrix:
-        checkpoints: ['my_checkpoint']
-    steps:
-
-      # Clone the contents of the repository
-    - name: Copy Repository Contents
-      uses: actions/checkout@main
-
-      # Run Great Expectations and deploy Data Docs to Netlify
-    - name: Run Great Expectation Checkpoints
-      id: ge
-      uses: superconductive/great_expectations_action@main
-      # continue-on-error: true
-      with:
-        CHECKPOINTS: ${{ matrix.checkpoints }}
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        GE_HOME: 'great_expectations'
-    
-    # If a checkpoint failed, comment on the PR with a link to the Data Docs hosted on Netlify.
-    - name: Comment on PR
-      if: ${{ always() }}
-      # if: steps.ge.outputs.checkpoint_failure_flag == '1'
-      uses: actions/github-script@v2
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        script: |
-            if (process.env.FAILURE_FLAG == 1 ) {
-              msg = `test of input: ${{ matrix.checkpoints }}\n\nFailed Great Expectations checkpoint(s) \`${process.env.FAILED_CHECKPOINTS}\` detected for: ${process.env.SHA}.  Corresponding Data Docs have been generated and can be viewed [here](${process.env.URL}).`;
-            } else {
-              msg = `test of input: ${{ matrix.checkpoints }}\n\nAll Checkpoints for: ${process.env.SHA} have passed.  Corresponding Data Docs have been generated and can be viewed [here](${process.env.URL}).`;
-            }
-            console.log(`Message to be emitted: ${msg}`);
-            github.issues.createComment({
-            issue_number: context.issue.number,
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            body: msg
-            })
-      env:
-        URL: "${{ steps.ge.outputs.netlify_docs_url }}"
-        FAILED_CHECKPOINTS: ${{ steps.ge.outputs.failing_checkpoints }}
-        SHA: ${{ github.sha }}
-        FAILURE_FLAG: ${{ steps.ge.outputs.checkpoint_failure_flag }}
+  uses: great-expectations/great_expectations_action@v0.2
+  
+  with:
+    CHECKPOINTS: "my_checkpoint"
+    NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+    NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+    GE_HOME: 'great_expectations'
+    DEBUG: true
+    ACTION_DOCS_LOCATION:
+    FAILING_CHECKPOINTS:
+    PASSING_CHECKPOINTS:
+    NETLIFY_DOCS_URL:
+    CHECKPOINT_FAILURE_FLAG:
