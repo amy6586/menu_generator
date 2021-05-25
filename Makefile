@@ -1,24 +1,11 @@
 make all: clean
 
-.jq:
-	wget https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64
-	mv jq-linux64 jq
-	chmod 777 jq
-	touch $@
-
-.python:
-	wget https://www.python.org/ftp/python/3.8.4/Python-3.8.4.tgz
-	mv Python-3.8.4.tgz python
-	chmod 777 python
-	touch $@
-
-psycopg2_Install:
-	pip3 install psycopg2-binary
-	touch $@
+requirements:
+	pip install -U -r requirements.txt
 
 TODAY = $(shell date --date='today' '+%F')
 
-recipes_vegan.json:
+recipes_vegan.json: requirements
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&tags=vegan&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_vegan.json
 
 recipes_vegeterian.json: recipes_vegan.json
@@ -54,5 +41,8 @@ raw_scores: raw_recipes
 postgres_script: raw_scores
 	python3 RDS-connect.py
 
-clean : postgres_script
+gevalidations: postgres_script
+	python3 great_expectations/uncommitted/run_pgfinaltable.py
+
+clean : gevalidations
 	-rm formatted_csv/*.csv

@@ -1,0 +1,13 @@
+name: pgfinaltable
+config_version:
+module_name: great_expectations.checkpoint
+class_name: LegacyCheckpoint
+validation_operator_name:
+batches:
+  - batch_kwargs:
+      table: final_data
+      schema: raw_data
+      data_asset_name: raw_data.final_data
+      datasource: postgres_db
+    expectation_suite_names:
+      - raw_data.final_data.warning
