@@ -28,7 +28,7 @@ import sys
 from great_expectations import DataContext
 
 # checkpoint configuration
-context = DataContext("/Users/amyraygada/menu_generator/menu_generator/great_expectations")
+context = DataContext("menu_generator/great_expectations")
 checkpoint = context.get_checkpoint("pgfinaltable")
 
 # run the Checkpoint
