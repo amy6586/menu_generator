@@ -42,7 +42,7 @@ postgres_script: raw_scores
 	python3 RDS-connect.py
 
 gevalidations: postgres_script
-	python3 great_expectations/uncommitted/run_pgfinaltable.py
+	python3 menu_generator/great_expectations/uncommitted/run_pgfinaltable.py
 
 clean : gevalidations
 	-rm formatted_csv/*.csv
