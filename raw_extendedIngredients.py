@@ -1,7 +1,7 @@
 import json
 import csv
 
-with open('/Users/amyraygada/menu_generator/menu_generator/raw_data/2021-04-26_recipes_random.json', 'r') as handle:
+with open('menu_generator/raw_data/2021-04-26_recipes_random.json', 'r') as handle:
     parsed = json.load(handle)
 
 # appends
