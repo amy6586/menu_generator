@@ -1,10 +1,9 @@
 import json
 import csv
-import os
-with open('menu_generator/raw_data/2021-04-26_recipes_random.json', 'r') as handle:
-    parsed = json.load(handle)
 
-# appends
+
+with open('raw_data/2021-04-26_recipes_random.json', 'r') as handle:
+   parsed = json.load(handle)
 
 csvfile = open('formatted_csv/features.csv', 'a', newline='')
 csvwriter = csv.writer(csvfile, quoting=csv.QUOTE_ALL)

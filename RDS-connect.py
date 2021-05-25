@@ -23,16 +23,16 @@ try:
 	  "title" text,
 	  "servings" integer,
 	  "ready_in_minutes" integer,
-	  "price_per_serving" double precision,
+	  "price_per_serving" decimal,
 	  "spoonacular_source_url" text,
 	  "summary" text,
 	  "instructions" text
 	);
 	
 	
-	CREATE TABLE if not exists  raw_data.raw_ingredientes (
+	CREATE TABLE if not exists  raw_data.raw_ingredients (
     "recipe_id" integer NOT NULL,
-    "ingredients_id" integer,
+    "ingredients_id" text,
     "ingredients" text
 );
 
@@ -58,9 +58,40 @@ CREATE TABLE if not exists  raw_data.raw_features (
 	"diets" text
 );
 
-	""")
+create table if not exists raw_data.raw_nutrition as
+	with summary as(SELECT 
+                recipe_id, summary
+				from raw_data.raw_recipes),
+	extracted as(SELECT recipe_id,Regexp_matches(summary, '\>[^<]*fat') AS fat, 
+               Regexp_matches(summary, '\>[^<]*protein')  AS protein, 
+               Regexp_matches(summary, '\>[^<]*calories') AS calories 
+        		from summary),
+	transformation as(select recipe_id,
+				cast(protein as text),
+				cast(fat as text),
+				cast(calories as text)
+				from extracted),
+	finale as(select recipe_id, trim('{">}' from fat) as fat,
+			trim('{">}' from protein) as protein, 
+			cast(trim('{"> calories}' from calories)as integer) as calories from transformation)
+	select * from finale;
+	
+create table if not exists raw_data.final_data as Select distinct(r.recipe_id), r.title, r.servings,r.ready_in_minutes,
+	regexp_replace(r.instructions, E'<[^>]+>', '', 'gi')as instructions,
+	n.fat, n.protein, n.calories,
+	f.cuisines, f.diets,f.dish_types,
+	s.very_healthy, s.very_popular, s.health_score
+from raw_data.raw_recipes as r
+join raw_data.raw_nutrition as n
+on r.recipe_id = n.recipe_id
+join raw_data.raw_features as f
+on r.recipe_id = f.recipe_id
+join raw_data.raw_scores as s
+on r.recipe_id = s.recipe_id;
+""")
+
 except:
-	print("Table Created")
+	print("Table NOT Created")
 
 with open('formatted_csv/extendedIngredients.csv', 'r') as f:
 	reader = csv.reader(f, quotechar='\001', delimiter=',',
@@ -68,7 +99,7 @@ with open('formatted_csv/extendedIngredients.csv', 'r') as f:
 	next(reader) # Skip the header row
 	for row in reader:
 		cursor.execute(
-			"INSERT INTO raw_data.raw_ingredientes VALUES (%s, %s, %s)",
+			"INSERT INTO raw_data.raw_ingredients VALUES (%s, %s, %s)",
 			row)
 
 with open('formatted_csv/scores.csv', 'r') as f:
