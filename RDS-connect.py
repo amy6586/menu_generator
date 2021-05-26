@@ -1,7 +1,7 @@
 DB_HOST = "menu-generator.cagfzhepmugi.eu-central-1.rds.amazonaws.com"
 DB_NAME = "menu_generator"
 DB_USER = "postgres"
-DB_PASS = "J6dgs9L5oTwAmtmtklPF"
+PASSWORD = ${{ PASSWORD }}
 DB_PORT = "5432"
 
 import psycopg2
@@ -9,7 +9,7 @@ import psycopg2.extras
 import csv
 
 try:
-	conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port = DB_PORT)
+	conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=PASSWORD, host=DB_HOST, port = DB_PORT)
 	print("Connection Succesful")
 except:
     print("Connection Failed")
