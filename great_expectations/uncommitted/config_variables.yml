@@ -18,8 +18,7 @@
 instance_id: b0ee89ac-877c-4e1b-8feb-1dab1971a4f4
 postgres_db:
   drivername: postgresql
-  HOST: ${{ secrets.HOST }}
+  HOST: "menu-generator.cagfzhepmugi.eu-central-1.rds.amazonaws.com"
   port: '5432'
-  USERNAME: ${{ secrets.USERNAME }}
-  PASSWORD: ${{ secrets.PASSWORD }}
-  database: menu_generator
+  USERNAME: "postgres"
+  PASSWORD: "J6dgs9L5oTwAmtmtklPF"
