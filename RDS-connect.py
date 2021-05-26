@@ -9,7 +9,7 @@ import psycopg2.extras
 import csv
 
 try:
-	conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=PASSWORD, host=HOST, port = DB_PORT)
+	conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST, port = DB_PORT)
 	print("Connection Succesful")
 except:
     print("Connection Failed")
