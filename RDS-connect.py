@@ -1,4 +1,4 @@
-DB_HOST = "menu-generator.cagfzhepmugi.eu-central-1.rds.amazonaws.com"
+HOST = ${{ HOST }}
 DB_NAME = "menu_generator"
 DB_USER = "postgres"
 PASSWORD = ${{ PASSWORD }}
