@@ -1,6 +1,4 @@
-
-# Menu-Generator
-
+![img.png](FoodTastic_Logo.png)
 
 ### Problem
 
@@ -18,7 +16,7 @@ We need to define the following:
  3. **Considering nutritional needs of users:** Nowadays, unhealthy eating habits and imbalanced nutrition increase possibilities of people having obesity and other dietary-related conditions such as diabetes, hypertension, etc. As a treatment or preventive measure, nutritionists or dietitians usually recommend regular exercises and design individualized meal plans for their patients. Unfortunately, these nutrition experts are overloaded with too many patients to manually tailor an individualized meal plan for each user. That is where food recommender systems can be used as an intelligent nutrition consultation system.
  4. **Filter the menus by nutricional needs and special menus:**
  - [x] Filter recipes by diets:  vegetarian, vegan, pescatarian, etc.
- - [x] Filter recipes by Cuisine: Thai. Italian, Greek, Peruvian. Chinese, etc.
+ - [x] Filter recipes by Cuisine: Thai, Italian, Greek, Peruvian. Chinese, etc.
  - [x] Filtering recipes by calories: for example, 200, 500, etc.
  - [x] Filtering recipes by scores: for example, Very healthy, likes, etc
 
@@ -34,7 +32,7 @@ We need to define the following:
 
 ### **Initial Project Arquitecture:**
 
-![img.png](architecture.png)
+![img.png](architecture.jpeg)
 
 ### **Database Diagram:**
 
@@ -43,4 +41,6 @@ We need to define the following:
 ### **Project Status:**
 
 - Phase 1 Completed
-- Phase 2 Generate menus automatically
+- Phase 2 UI, generate menus --> Daily, Weekly, Monthly 
+- Phase 3 Recommend Recipes by the ingredients you have at home
+- Phase 4 Create shopping list and recommend where purchase the products based on price or location

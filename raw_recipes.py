@@ -1,21 +1,22 @@
 import json
 import csv
 
-with open('raw_data/2021-04-26_recipes_random.json', 'r') as handle:
-    parsed = json.load(handle)
+with open('raw_data/merged.json') as f:
+    data = json.loads(f.read())
 
 # appends
 
 csvfile = open('formatted_csv/recipes.csv', 'a', newline='')
 csvwriter = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
 
-for keys in parsed['recipes']:
-		csvwriter.writerow([keys['id'], \
-								keys['title'], \
-								keys['servings'], \
-								keys['readyInMinutes'], \
-								keys['pricePerServing'], \
-								keys['spoonacularSourceUrl'], \
-								keys['summary'], \
-								keys['instructions']])
+for item in data:
+    for recipe in item['recipes']:
+       csvwriter.writerow([recipe['id'],
+								recipe['title'],
+								recipe['servings'],
+								recipe['readyInMinutes'],
+								recipe['pricePerServing'],
+								recipe['spoonacularSourceUrl'],
+								recipe['summary'],
+								recipe['instructions']])
 csvfile.close()

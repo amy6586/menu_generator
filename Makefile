@@ -26,7 +26,10 @@ recipes_dessert.json: recipes_chicken.json
 recipes_random.json: recipes_dessert.json
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_random.json
 
-raw_extendedIngredients: recipes_random.json
+merge_data: recipes_random.json
+	jq -s '.' *.json > raw_data/merged.json
+
+raw_extendedIngredients: merge_data
 	python3 raw_extendedIngredients.py
 
 raw_features: raw_extendedIngredients
@@ -42,7 +45,7 @@ postgres_script: raw_scores
 	python3 RDS-connect.py
 
 gevalidations: postgres_script
-	python3 great_expectations/uncommitted/run_pgfinaltable.py
+	python3 run_pgfinaltable.py
 
 clean : gevalidations
 	-rm formatted_csv/*.csv
