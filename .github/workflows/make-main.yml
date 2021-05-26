@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 1
       - name: Run Makefile
-        working-directory: ./menu_generator
+        working-directory: menu_generator
         run: |-
           make
       - name: Commit and push
