@@ -1,7 +1,7 @@
-HOST = ${{ HOST }}
+DB_HOST = "menu-generator.cagfzhepmugi.eu-central-1.rds.amazonaws.com"
 DB_NAME = "menu_generator"
 DB_USER = "postgres"
-PASSWORD = ${{ PASSWORD }}
+DB_PASS = "J6dgs9L5oTwAmtmtklPF"
 DB_PORT = "5432"
 
 import psycopg2
