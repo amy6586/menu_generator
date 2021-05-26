@@ -27,7 +27,7 @@ recipes_random.json: recipes_dessert.json
 	curl "https://api.spoonacular.com/recipes/random?limitLicense=false&number=99&apiKey=498c26d092a94f43be3633099e12f569" | jq '.' > raw_data/$(TODAY)_recipes_random.json
 
 merge_data: recipes_random.json
-	jq -s '.' *.json > raw_data/merged.json
+	cd ~/raw_data/ && jq -s '.' *.json > merged.json
 
 raw_extendedIngredients: merge_data
 	python3 raw_extendedIngredients.py
