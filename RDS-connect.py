@@ -76,8 +76,28 @@ create table if not exists raw_data.raw_nutrition as
 			cast(trim('{"> calories}' from calories)as integer) as calories from transformation)
 	select * from finale;
 	
-create table if not exists raw_data.final_data as Select distinct(r.recipe_id), r.title, r.servings,r.ready_in_minutes,
-	regexp_replace(r.instructions, E'<[^>]+>', '', 'gi')as instructions,
+create table if not exists raw_data.final_data (
+	recipe_id integer, 
+	title text, 
+	servings integer,
+	ready_in_minutes integer,
+	instructions text,
+	fat text, 
+	protein text, 
+	calories text,
+	cuisines text, 
+	diets text,
+	dish_types text,
+	very_healthy text,
+	very_popular text, 
+	health_score);
+
+insert into raw_data.final_data (recipe_id, title, servings,ready_in_minutes,
+	instructions, fat, protein, calories,
+	cuisines, diets,dish_types,
+	very_healthy,very_popular, health_score)
+	Select distinct(r.recipe_id), r.title, r.servings,r.ready_in_minutes,
+	r.instructions,
 	n.fat, n.protein, n.calories,
 	f.cuisines, f.diets,f.dish_types,
 	s.very_healthy, s.very_popular, s.health_score
