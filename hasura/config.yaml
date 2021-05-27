@@ -1,7 +1,0 @@
-version: 2
-endpoint: https://outgoing-stingray-31.hasura.app
-admin_secret: 9sfuGsD4j2IKCnJOqS6iJ1zYsDWpBfvThmSK3O2aigoWf5B7t5z8iKAsK3OZ05d8
-metadata_directory: metadata
-actions:
-  kind: synchronous
-  handler_webhook_baseurl: http://localhost:3000
