@@ -90,7 +90,7 @@ create table if not exists raw_data.final_data (
 	dish_types text,
 	very_healthy text,
 	very_popular text, 
-	health_score);
+	health_score integer);
 
 insert into raw_data.final_data (recipe_id, title, servings,ready_in_minutes,
 	instructions, fat, protein, calories,
