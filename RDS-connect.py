@@ -58,7 +58,7 @@ CREATE TABLE if not exists  raw_data.raw_features (
 	"diets" text
 );
 
-create table if not exists raw_data.raw_nutrition as
+CREATE TABLE if not exists raw_data.raw_nutrition as
 	with summary as(SELECT 
                 recipe_id, summary
 				from raw_data.raw_recipes),
@@ -76,7 +76,7 @@ create table if not exists raw_data.raw_nutrition as
 			cast(trim('{"> calories}' from calories)as integer) as calories from transformation)
 	select * from finale;
 	
-create table if not exists raw_data.final_data (
+CREATE TABLE if not exists raw_data.final_data (
 	recipe_id integer, 
 	title text, 
 	servings integer,
@@ -92,22 +92,19 @@ create table if not exists raw_data.final_data (
 	very_popular text, 
 	health_score integer);
 
-insert into raw_data.final_data (recipe_id, title, servings,ready_in_minutes,
-	instructions, fat, protein, calories,
-	cuisines, diets,dish_types,
-	very_healthy,very_popular, health_score)
+INSERT INTO raw_data.final_data (recipe_id, title, servings,ready_in_minutes,instructions, fat, protein, calories, cuisines, diets,dish_types, very_healthy,very_popular, health_score)
 	Select distinct(r.recipe_id), r.title, r.servings,r.ready_in_minutes,
 	r.instructions,
 	n.fat, n.protein, n.calories,
 	f.cuisines, f.diets,f.dish_types,
 	s.very_healthy, s.very_popular, s.health_score
-from raw_data.raw_recipes as r
-join raw_data.raw_nutrition as n
-on r.recipe_id = n.recipe_id
-join raw_data.raw_features as f
-on r.recipe_id = f.recipe_id
-join raw_data.raw_scores as s
-on r.recipe_id = s.recipe_id;
+	from raw_data.raw_recipes as r
+	join raw_data.raw_nutrition as n
+	on r.recipe_id = n.recipe_id
+	join raw_data.raw_features as f
+	on r.recipe_id = f.recipe_id
+	join raw_data.raw_scores as s
+	on r.recipe_id = s.recipe_id;
 """)
 
 except:
