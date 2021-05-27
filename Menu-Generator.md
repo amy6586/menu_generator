@@ -40,7 +40,9 @@ We need to define the following:
 
 ### **Project Status:**
 
-- Phase 1 Completed
+- Phase 1 Data Acquisition and MVP - **Completed**
 - Phase 2 UI, generate menus --> Daily, Weekly, Monthly 
-- Phase 3 Recommend Recipes by the ingredients you have at home
+- Phase 3 Improve Data Stack and Optimize Performance
 - Phase 4 Create shopping list and recommend where purchase the products based on price or location
+- Phase 5 Integration with food suppliers to recommend where to purchase ingredients
+- Phase 6 Get Funding
