@@ -1,8 +1,8 @@
-DB_HOST = "menu-generator.cagfzhepmugi.eu-central-1.rds.amazonaws.com"
+DB_HOST = "***********"
 DB_NAME = "menu_generator"
 DB_USER = "postgres"
-DB_PASS = "J6dgs9L5oTwAmtmtklPF"
-DB_PORT = "5432"
+DB_PASS = "*********"
+DB_PORT = "********"
 
 import psycopg2
 import psycopg2.extras
